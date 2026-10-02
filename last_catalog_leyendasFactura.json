@@ -1,0 +1,53 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarListaLeyendasFacturaResponse": {
+        "RespuestaListaParametricasLeyendas": {
+          "transaccion": "true",
+          "listaLeyendas": [
+            {
+              "codigoActividad": "6920000",
+              "descripcionLeyenda": "Ley N° 453: Puedes acceder a la reclamación cuando tus derechos han sido vulnerados. "
+            },
+            {
+              "codigoActividad": "6920000",
+              "descripcionLeyenda": "Ley N° 453: El proveedor debe brindar atención sin discriminación, con respeto, calidez y cordialidad a los usuarios y consumidores."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: Tienes derecho a un trato equitativo sin discriminación en la oferta de servicios."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: En caso de incumplimiento a lo ofertado o convenido, el proveedor debe reparar o sustituir el servicio."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: El proveedor debe exhibir certificaciones de habilitación o documentos que acrediten las capacidades u ofertas de servicios especializados."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: El proveedor de servicios debe habilitar medios e instrumentos para efectuar consultas y reclamaciones."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: El proveedor deberá suministrar el servicio en las modalidades y términos ofertados o convenidos."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: La interrupción del servicio debe comunicarse con anterioridad a las Autoridades que correspondan y a los usuarios afectados."
+            },
+            {
+              "codigoActividad": "692000",
+              "descripcionLeyenda": "Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad."
+            }
+          ]
+        }
+      }
+    }
+  }
+}

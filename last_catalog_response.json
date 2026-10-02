@@ -1,0 +1,29 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoEmisionResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "3",
+              "descripcion": "MASIVO"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "CONTINGENCIA"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "EN LINEA"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "FUERA DE LINEA"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

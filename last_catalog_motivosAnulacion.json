@@ -1,0 +1,29 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaMotivoAnulacionResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "1",
+              "descripcion": "FACTURA MAL EMITIDA"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "NOTA DE CREDITO-DEBITO MAL EMITIDA"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "DATOS DE EMISION INCORRECTOS"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "FACTURA O NOTA DE CREDITO-DEBITO DEVUELTA"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

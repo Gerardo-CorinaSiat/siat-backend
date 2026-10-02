@@ -1,0 +1,12 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarFechaHoraResponse": {
+        "RespuestaFechaHora": {
+          "transaccion": "true",
+          "fechaHora": "2026-09-30T18:03:52.678"
+        }
+      }
+    }
+  }
+}

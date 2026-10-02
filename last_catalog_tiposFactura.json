@@ -1,0 +1,29 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTiposFacturaResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "4",
+              "descripcion": "DOCUMENTO EQUIVALENTE"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "FACTURA CON DERECHO A CREDITO FISCAL"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "DOCUMENTO DE AJUSTE"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "FACTURA SIN DERECHO A CREDITO FISCAL"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

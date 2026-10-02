@@ -1,0 +1,37 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoPuntoVentaResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "1",
+              "descripcion": "PUNTO VENTA COMISIONISTA"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "PUNTO VENTA VENTANILLA DE COBRANZA"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "PUNTO DE VENTA MOVILES"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "PUNTO DE VENTA CONJUNTA"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "PUNTO DE VENTA YPFB"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "PUNTO DE VENTA CAJEROS"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

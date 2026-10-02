@@ -1,0 +1,217 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoDocumentoSectorResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "43",
+              "descripcion": "FACTURA COMERCIAL DE EXPORTACIÓN HIDROCARBUROS"
+            },
+            {
+              "codigoClasificador": "53",
+              "descripcion": "FACTURA IMPORTACION COMERCIALIZACION LUBRICANTES IEHD"
+            },
+            {
+              "codigoClasificador": "44",
+              "descripcion": "FACTURA IMPORTACION COMERCIALIZACION LUBRICANTES"
+            },
+            {
+              "codigoClasificador": "51",
+              "descripcion": "FACTURA ENGARRAFADORAS"
+            },
+            {
+              "codigoClasificador": "40",
+              "descripcion": "FACTURA DE SERVICIOS BÁSICOS ZF"
+            },
+            {
+              "codigoClasificador": "35",
+              "descripcion": "FACTURA COMPRA VENTA BONIFICACIONES"
+            },
+            {
+              "codigoClasificador": "41",
+              "descripcion": "FACTURA COMPRA VENTA TASAS"
+            },
+            {
+              "codigoClasificador": "36",
+              "descripcion": "FACTURA PREVALORADA SDCF"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "FACTURA DE SERVICIO TURÍSTICO Y HOSPEDAJE"
+            },
+            {
+              "codigoClasificador": "8",
+              "descripcion": "FACTURA DE TASA CERO POR VENTA DE LIBROS Y TRANSPORTE INTERNACIONAL DE CARGA"
+            },
+            {
+              "codigoClasificador": "19",
+              "descripcion": "FACTURA HIDROCARBUROS ALCANZADA IEHD"
+            },
+            {
+              "codigoClasificador": "42",
+              "descripcion": "FACTURA ALQUILER ZF"
+            },
+            {
+              "codigoClasificador": "28",
+              "descripcion": "FACTURA COMERCIAL DE EXPORTACIÓN DE SERVICIOS"
+            },
+            {
+              "codigoClasificador": "45",
+              "descripcion": "FACTURA COMERCIAL DE EXPORTACION PRECIO VENTA"
+            },
+            {
+              "codigoClasificador": "46",
+              "descripcion": "FACTURA SECTORES EDUCATIVO ZONA FRANCA"
+            },
+            {
+              "codigoClasificador": "33",
+              "descripcion": "FACTURA TASA CERO BIENES CAPITAL"
+            },
+            {
+              "codigoClasificador": "54",
+              "descripcion": "FACTURA VENTA DE MATERIA PRIMA PARA BIODIESEL"
+            },
+            {
+              "codigoClasificador": "47",
+              "descripcion": "NOTA CREDITO DEBITO DESCUENTO"
+            },
+            {
+              "codigoClasificador": "48",
+              "descripcion": "NOTA CREDITO DEBITO ICE"
+            },
+            {
+              "codigoClasificador": "55",
+              "descripcion": "FACTURA COMERCIALIZACIÓN DE COMBUSTIBLE"
+            },
+            {
+              "codigoClasificador": "49",
+              "descripcion": "FACTURA TELECOMUNICACIONES ZONA FRANCA"
+            },
+            {
+              "codigoClasificador": "50",
+              "descripcion": "FACTURA DE HOSPITALES/CLÍNICAS ZONA FRANCA"
+            },
+            {
+              "codigoClasificador": "52",
+              "descripcion": "FACTURA VENTA MINERAL BANCO CENTRAL"
+            },
+            {
+              "codigoClasificador": "10",
+              "descripcion": "FACTURA DUTTY FREE"
+            },
+            {
+              "codigoClasificador": "29",
+              "descripcion": "NOTA DE CONCILIACION"
+            },
+            {
+              "codigoClasificador": "20",
+              "descripcion": "FACTURA COMERCIAL DE EXPORTACIÓN DE MINERALES"
+            },
+            {
+              "codigoClasificador": "30",
+              "descripcion": "BOLETO AEREO"
+            },
+            {
+              "codigoClasificador": "31",
+              "descripcion": "FACTURA DE SUMINISTRO"
+            },
+            {
+              "codigoClasificador": "37",
+              "descripcion": "FACTURA DE COMERCIALIZACIÓN DE GNV"
+            },
+            {
+              "codigoClasificador": "21",
+              "descripcion": "FACTURA VENTA INTERNA MINERALES"
+            },
+            {
+              "codigoClasificador": "34",
+              "descripcion": "FACTURA DE SEGUROS"
+            },
+            {
+              "codigoClasificador": "38",
+              "descripcion": "FACTURA HIDROCARBUROS NO ALCANZADA IEHD"
+            },
+            {
+              "codigoClasificador": "23",
+              "descripcion": "FACTURA PREVALORADA"
+            },
+            {
+              "codigoClasificador": "39",
+              "descripcion": "FACTURA COMERCIALIZACION GN y GLP"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "FACTURA COMPRA-VENTA"
+            },
+            {
+              "codigoClasificador": "11",
+              "descripcion": "FACTURA SECTORES EDUCATIVOS"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "FACTURA DE ALQUILER DE BIENES INMUEBLES"
+            },
+            {
+              "codigoClasificador": "12",
+              "descripcion": "FACTURA DE COMERCIALIZACIÓN DE HIDROCARBUROS"
+            },
+            {
+              "codigoClasificador": "13",
+              "descripcion": "FACTURA DE SERVICIOS BÁSICOS"
+            },
+            {
+              "codigoClasificador": "14",
+              "descripcion": "FACTURA PRODUCTOS ALCANZADOS POR EL ICE"
+            },
+            {
+              "codigoClasificador": "15",
+              "descripcion": "FACTURA DE ENTIDADES FINANCIERAS"
+            },
+            {
+              "codigoClasificador": "16",
+              "descripcion": "FACTURA DE HOTELES"
+            },
+            {
+              "codigoClasificador": "17",
+              "descripcion": "FACTURA DE HOSPITALES/CLÍNICAS"
+            },
+            {
+              "codigoClasificador": "18",
+              "descripcion": "FACTURA DE JUEGOS DE AZAR"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "FACTURA COMERCIAL DE EXPORTACIÓN"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "FACTURA COMERCIAL DE EXPORTACIÓN EN LIBRE CONSIGNACIÓN"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "FACTURA DE ZONA FRANCA"
+            },
+            {
+              "codigoClasificador": "7",
+              "descripcion": "FACTURA DE COMERCIALIZACIÓN DE ALIMENTOS – SEGURIDAD "
+            },
+            {
+              "codigoClasificador": "22",
+              "descripcion": "FACTURA TELECOMUNICACIONES"
+            },
+            {
+              "codigoClasificador": "9",
+              "descripcion": "FACTURA DE COMPRA Y VENTA DE MONEDA EXTRANJERA "
+            },
+            {
+              "codigoClasificador": "24",
+              "descripcion": "NOTA DE CRÉDITO-DÉBITO"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

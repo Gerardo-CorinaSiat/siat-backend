@@ -1,0 +1,1241 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoMetodoPagoResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "299",
+              "descripcion": "DEBITO AUTOMATICO -  VALE"
+            },
+            {
+              "codigoClasificador": "300",
+              "descripcion": "DEBITO AUTOMATICO -  PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "301",
+              "descripcion": "DEBITO AUTOMATICO -  TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "302",
+              "descripcion": "DEBITO AUTOMATICO -  DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "303",
+              "descripcion": "DEBITO AUTOMATICO -  TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "304",
+              "descripcion": "DEBITO AUTOMATICO -  GIFT CARD"
+            },
+            {
+              "codigoClasificador": "305",
+              "descripcion": "DEBITO AUTOMATICO -  CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "306",
+              "descripcion": "DEBITO AUTOMATICO -  BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "307",
+              "descripcion": "DEBITO AUTOMATICO -  PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "308",
+              "descripcion": "DEBITO AUTOMATICO – OTRO"
+            },
+            {
+              "codigoClasificador": "10",
+              "descripcion": "EFECTIVO-TARJETA"
+            },
+            {
+              "codigoClasificador": "11",
+              "descripcion": "EFECTIVO-CHEQUE"
+            },
+            {
+              "codigoClasificador": "12",
+              "descripcion": "EFECTIVO-VALES"
+            },
+            {
+              "codigoClasificador": "13",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "14",
+              "descripcion": "EFECTIVO-DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "15",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA SWIFT"
+            },
+            {
+              "codigoClasificador": "16",
+              "descripcion": "TARJETA-CHEQUE"
+            },
+            {
+              "codigoClasificador": "17",
+              "descripcion": "TARJETA-VALES"
+            },
+            {
+              "codigoClasificador": "18",
+              "descripcion": "TARJETA-TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "19",
+              "descripcion": "TARJETA-DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "20",
+              "descripcion": "TARJETA-TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "21",
+              "descripcion": "VALES-TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "22",
+              "descripcion": "VALES – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "23",
+              "descripcion": "VALES – SWIFT"
+            },
+            {
+              "codigoClasificador": "24",
+              "descripcion": "TRANSFERENCIA BANCARIA-DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "25",
+              "descripcion": "TRANSFERENCIA BANCARIA-TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "26",
+              "descripcion": "DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "7",
+              "descripcion": "TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "27",
+              "descripcion": "GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "8",
+              "descripcion": "DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "9",
+              "descripcion": "TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "29",
+              "descripcion": "EFECTIVO - TARJETA - VALE"
+            },
+            {
+              "codigoClasificador": "30",
+              "descripcion": "OTROS – GIFT CARD"
+            },
+            {
+              "codigoClasificador": "31",
+              "descripcion": "CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "32",
+              "descripcion": "BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "33",
+              "descripcion": "PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "34",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "35",
+              "descripcion": "EFECTIVO – GIFT CARD"
+            },
+            {
+              "codigoClasificador": "36",
+              "descripcion": "EFECTIVO – CANAL PAGO"
+            },
+            {
+              "codigoClasificador": "37",
+              "descripcion": "EFECTIVO – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "38",
+              "descripcion": "EFECTIVO – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "39",
+              "descripcion": "TARJETA – PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "40",
+              "descripcion": "TARJETA – GIFT"
+            },
+            {
+              "codigoClasificador": "41",
+              "descripcion": "TARJETA – CANAL PAGO"
+            },
+            {
+              "codigoClasificador": "42",
+              "descripcion": "TARJETA – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "43",
+              "descripcion": "TARJETA – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "44",
+              "descripcion": "CHEQUE – VALES"
+            },
+            {
+              "codigoClasificador": "45",
+              "descripcion": "CHEQUE – PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "46",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "47",
+              "descripcion": "CHEQUE – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "48",
+              "descripcion": "CHEQUE – SWIFT"
+            },
+            {
+              "codigoClasificador": "49",
+              "descripcion": "CHEQUE – GIFT"
+            },
+            {
+              "codigoClasificador": "50",
+              "descripcion": "CHEQUE – CANAL PAGO"
+            },
+            {
+              "codigoClasificador": "51",
+              "descripcion": "CHEQUE – BILLETERA"
+            },
+            {
+              "codigoClasificador": "52",
+              "descripcion": "CHEQUE – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "53",
+              "descripcion": "VALES – GIFT"
+            },
+            {
+              "codigoClasificador": "54",
+              "descripcion": "VALES – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "55",
+              "descripcion": "VALES – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "56",
+              "descripcion": "VALES – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "57",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "58",
+              "descripcion": "PAGO POSTERIOR – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "59",
+              "descripcion": "PAGO POSTERIOR – SWIFT"
+            },
+            {
+              "codigoClasificador": "60",
+              "descripcion": "PAGO POSTERIOR – GIFT"
+            },
+            {
+              "codigoClasificador": "61",
+              "descripcion": "PAGO POSTERIOR – CANAL"
+            },
+            {
+              "codigoClasificador": "62",
+              "descripcion": "PAGO POSTERIOR – BILLETERA"
+            },
+            {
+              "codigoClasificador": "63",
+              "descripcion": "PAGO POSTERIOR – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "EFECTIVO"
+            },
+            {
+              "codigoClasificador": "64",
+              "descripcion": "TRANSFERENCIA BANCARIA – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "TARJETA"
+            },
+            {
+              "codigoClasificador": "65",
+              "descripcion": "TRANSFERENCIA BANCARIA – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "CHEQUE"
+            },
+            {
+              "codigoClasificador": "66",
+              "descripcion": "TRANSFERENCIA BANCARIA – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "VALES"
+            },
+            {
+              "codigoClasificador": "67",
+              "descripcion": "TRANSFERENCIA BANCARIA – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "OTROS"
+            },
+            {
+              "codigoClasificador": "68",
+              "descripcion": "DEPOSITO EN CUENTA – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "69",
+              "descripcion": "DEPOSITO EN CUENTA – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "70",
+              "descripcion": "DEPOSITO EN CUENTA – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "71",
+              "descripcion": "DEPOSITO EN CUENTA  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "72",
+              "descripcion": "SWIFT – GIFT"
+            },
+            {
+              "codigoClasificador": "73",
+              "descripcion": "SWIFT – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "74",
+              "descripcion": "SWIFT – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "75",
+              "descripcion": "SWIFT – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "76",
+              "descripcion": "GIFT-CARD – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "77",
+              "descripcion": "GIFT CARD – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "78",
+              "descripcion": "GIFT – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "79",
+              "descripcion": "CANAL DE PAGO – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "80",
+              "descripcion": "CANAL DE PAGO – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "81",
+              "descripcion": "BILLETERA MOVIL – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "82",
+              "descripcion": "EFECTIVO - TARJETA - PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "83",
+              "descripcion": "EFECTIVO - TARJETA - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "84",
+              "descripcion": "EFECTIVO - TARJETA - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "85",
+              "descripcion": "EFECTIVO - TARJETA - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "86",
+              "descripcion": "EFECTIVO - TARJETA - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "87",
+              "descripcion": "EFECTIVO - TARJETA - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "88",
+              "descripcion": "EFECTIVO - TARJETA - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "89",
+              "descripcion": "EFECTIVO - TARJETA - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "90",
+              "descripcion": "EFECTIVO – CHEQUE - PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "91",
+              "descripcion": "EFECTIVO – CHEQUE - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "92",
+              "descripcion": "EFECTIVO – CHEQUE - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "93",
+              "descripcion": "EFECTIVO – CHEQUE - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "94",
+              "descripcion": "EFECTIVO – CHEQUE - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "95",
+              "descripcion": "EFECTIVO – CHEQUE - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "96",
+              "descripcion": "EFECTIVO – CHEQUE - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "97",
+              "descripcion": "EFECTIVO – CHEQUE - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "98",
+              "descripcion": "EFECTIVO – VALES - PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "99",
+              "descripcion": "EFECTIVO – VALES - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "100",
+              "descripcion": "EFECTIVO – VALES - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "101",
+              "descripcion": "EFECTIVO – VALES - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "102",
+              "descripcion": "EFECTIVO – VALES - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "103",
+              "descripcion": "EFECTIVO – VALES - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "104",
+              "descripcion": "EFECTIVO – VALES - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "105",
+              "descripcion": "EFECTIVO – VALES - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "106",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "107",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "108",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "109",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "110",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "111",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "112",
+              "descripcion": "EFECTIVO – PAGO POSTERIOR - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "113",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA  – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "114",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA  – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "115",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "116",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "117",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "118",
+              "descripcion": "EFECTIVO – TRANSFERENCIA BANCARIA  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "119",
+              "descripcion": "EFECTIVO – DEPOSITO EN CUENTA  – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "120",
+              "descripcion": "EFECTIVO – DEPOSITO EN CUENTA  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "121",
+              "descripcion": "EFECTIVO – DEPOSITO EN CUENTA  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "122",
+              "descripcion": "EFECTIVO – DEPOSITO EN CUENTA  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "123",
+              "descripcion": "EFECTIVO – DEPOSITO EN CUENTA  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "124",
+              "descripcion": "EFECTIVO – SWIFT - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "125",
+              "descripcion": "EFECTIVO – SWIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "126",
+              "descripcion": "EFECTIVO – SWIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "127",
+              "descripcion": "EFECTIVO – SWIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "128",
+              "descripcion": "EFECTIVO – GIFT CARD - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "129",
+              "descripcion": "EFECTIVO – GIFT CARD - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "130",
+              "descripcion": "EFECTIVO – GIFT CARD - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "131",
+              "descripcion": "EFECTIVO – CANAL PAGO - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "132",
+              "descripcion": "EFECTIVO – CANAL PAGO - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "133",
+              "descripcion": "EFECTIVO – BILLETERA MOVIL - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "134",
+              "descripcion": "TARJETA – CHEQUE - PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "135",
+              "descripcion": "TARJETA – CHEQUE - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "136",
+              "descripcion": "TARJETA – CHEQUE - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "137",
+              "descripcion": "TARJETA – CHEQUE - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "138",
+              "descripcion": "TARJETA – CHEQUE - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "139",
+              "descripcion": "TARJETA – CHEQUE - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "140",
+              "descripcion": "TARJETA – CHEQUE - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "141",
+              "descripcion": "TARJETA – CHEQUE - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "142",
+              "descripcion": "TARJETA – VALES - PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "143",
+              "descripcion": "TARJETA – VALES - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "144",
+              "descripcion": "TARJETA – VALES - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "145",
+              "descripcion": "TARJETA – VALES - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "146",
+              "descripcion": "TARJETA – VALES - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "147",
+              "descripcion": "TARJETA – VALES - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "148",
+              "descripcion": "TARJETA – VALES - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "149",
+              "descripcion": "TARJETA – VALES - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "150",
+              "descripcion": "TARJETA – PAGO POSTERIOR - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "151",
+              "descripcion": "TARJETA – PAGO POSTERIOR - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "152",
+              "descripcion": "TARJETA – PAGO POSTERIOR - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "153",
+              "descripcion": "TARJETA – PAGO POSTERIOR - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "154",
+              "descripcion": "TARJETA – PAGO POSTERIOR - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "155",
+              "descripcion": "TARJETA – PAGO POSTERIOR - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "156",
+              "descripcion": "TARJETA – PAGO POSTERIOR - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "157",
+              "descripcion": "TARJETA – TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "158",
+              "descripcion": "TARJETA – TRANSFERENCIA BANCARIA - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "159",
+              "descripcion": "TARJETA – TRANSFERENCIA BANCARIA – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "160",
+              "descripcion": "TARJETA – TRANSFERENCIA BANCARIA – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "161",
+              "descripcion": "TARJETA – TRANSFERENCIA  BANCARIA – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "162",
+              "descripcion": "TARJETA – TRANSFERENCIA BANCARIA – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "163",
+              "descripcion": "TARJETA – DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "164",
+              "descripcion": "TARJETA – DEPOSITO EN CUENTA – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "165",
+              "descripcion": "TARJETA – DEPOSITO EN CUENTA – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "166",
+              "descripcion": "TARJETA – DEPOSITO EN CUENTA  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "167",
+              "descripcion": "TARJETA – DEPOSITO EN CUENTA – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "168",
+              "descripcion": "TARJETA – SWIFT - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "169",
+              "descripcion": "TARJETA – SWIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "170",
+              "descripcion": "TARJETA – SWIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "171",
+              "descripcion": "TARJETA – SWIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "172",
+              "descripcion": "TARJETA – GIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "173",
+              "descripcion": "TARJETA – GIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "174",
+              "descripcion": "TARJETA – GIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "175",
+              "descripcion": "TARJETA – CANAL PAGO - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "176",
+              "descripcion": "TARJETA – CANAL PAGO - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "177",
+              "descripcion": "TARJETA – BILLETERA MOVIL - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "178",
+              "descripcion": "CHEQUE – VALES - PAGO POSTERIOR"
+            },
+            {
+              "codigoClasificador": "179",
+              "descripcion": "CHEQUE – VALES - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "180",
+              "descripcion": "CHEQUE – VALES - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "181",
+              "descripcion": "CHEQUE – VALES - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "182",
+              "descripcion": "CHEQUE – VALES - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "183",
+              "descripcion": "CHEQUE – VALES - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "184",
+              "descripcion": "CHEQUE – VALES - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "185",
+              "descripcion": "CHEQUE – VALES - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "186",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "187",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "188",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "189",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "190",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "191",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "192",
+              "descripcion": "CHEQUE – PAGO POSTERIOR - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "193",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "194",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "195",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "196",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "197",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "198",
+              "descripcion": "CHEQUE – TRANSFERENCIA BANCARIA – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "199",
+              "descripcion": "CHEQUE – DEPOSITO EN CUENTA - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "200",
+              "descripcion": "CHEQUE – DEPOSITO EN CUENTA - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "201",
+              "descripcion": "CHEQUE – DEPOSITO EN CUENTA - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "202",
+              "descripcion": "CHEQUE – DEPOSITO EN CUENTA - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "203",
+              "descripcion": "CHEQUE – DEPOSITO EN CUENTA - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "204",
+              "descripcion": "CHEQUE – SWIFT - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "205",
+              "descripcion": "CHEQUE – SWIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "206",
+              "descripcion": "CHEQUE – SWIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "207",
+              "descripcion": "CHEQUE – SWIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "208",
+              "descripcion": "CHEQUE – GIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "209",
+              "descripcion": "CHEQUE – GIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "210",
+              "descripcion": "CHEQUE – GIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "211",
+              "descripcion": "CHEQUE – CANAL PAGO - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "212",
+              "descripcion": "CHEQUE – CANAL PAGO - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "213",
+              "descripcion": "CHEQUE – BILLETERA MOVIL  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "214",
+              "descripcion": "VALES – SWIFT - TRANSFERENCIA BANCARIA"
+            },
+            {
+              "codigoClasificador": "215",
+              "descripcion": "VALES – SWIFT - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "216",
+              "descripcion": "VALES – SWIFT – OTROS"
+            },
+            {
+              "codigoClasificador": "217",
+              "descripcion": "VALES – OTROS – GIFT CARD"
+            },
+            {
+              "codigoClasificador": "218",
+              "descripcion": "VALES – OTROS – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "219",
+              "descripcion": "VALES – SWIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "220",
+              "descripcion": "VALES – SWIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "221",
+              "descripcion": "VALES – GIFT - DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "222",
+              "descripcion": "VALES – GIFT - TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "223",
+              "descripcion": "OTROS – GIFT CARD – TARJETA"
+            },
+            {
+              "codigoClasificador": "224",
+              "descripcion": "OTROS - GIFT CARD - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "225",
+              "descripcion": "VALES – GIFT CARD – OTROS"
+            },
+            {
+              "codigoClasificador": "226",
+              "descripcion": "VALES – GIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "227",
+              "descripcion": "VALES – CANAL DE PAGO  – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "228",
+              "descripcion": "VALES – CANAL DE PAGO  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "229",
+              "descripcion": "VALES – CANAL PAGO – OTROS"
+            },
+            {
+              "codigoClasificador": "230",
+              "descripcion": "OTROS - CANAL DE PAGO  - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "231",
+              "descripcion": "VALES – CANAL DE PAGO  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "232",
+              "descripcion": "VALES – BILLETERA MOVIL – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "233",
+              "descripcion": "VALES – BILLETERA MOVIL – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "234",
+              "descripcion": "VALES – BILLETERA MOVIL - OTROS"
+            },
+            {
+              "codigoClasificador": "235",
+              "descripcion": "VALES – BILLETERA MOVIL – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "236",
+              "descripcion": "VALES – OTROS – CANAL PAGO"
+            },
+            {
+              "codigoClasificador": "237",
+              "descripcion": "VALES – OTROS – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "238",
+              "descripcion": "VALES – PAGO ONLINE – OTROS"
+            },
+            {
+              "codigoClasificador": "239",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA  – DEPOSITO EN CUENTA"
+            },
+            {
+              "codigoClasificador": "240",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA  – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "241",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "242",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "243",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "244",
+              "descripcion": "PAGO POSTERIOR – TRANSFERENCIA BANCARIA  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "245",
+              "descripcion": "PAGO POSTERIOR – DEPOSITO EN CUENTA  – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "246",
+              "descripcion": "PAGO POSTERIOR – DEPOSITO EN CUENTA  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "247",
+              "descripcion": "PAGO POSTERIOR – DEPOSITO EN CUENTA  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "248",
+              "descripcion": "PAGO POSTERIOR – DEPOSITO EN CUENTA  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "249",
+              "descripcion": "PAGO POSTERIOR – DEPOSITO EN CUENTA  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "250",
+              "descripcion": "PAGO POSTERIOR – SWIFT - GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "251",
+              "descripcion": "PAGO POSTERIOR – SWIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "252",
+              "descripcion": "PAGO POSTERIOR – SWIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "253",
+              "descripcion": "PAGO POSTERIOR – SWIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "254",
+              "descripcion": "PAGO POSTERIOR – GIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "255",
+              "descripcion": "PAGO POSTERIOR – GIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "256",
+              "descripcion": "PAGO POSTERIOR – GIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "257",
+              "descripcion": "PAGO POSTERIOR – CANAL DE PAGO - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "258",
+              "descripcion": "PAGO POSTERIOR – CANAL DE PAGO - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "259",
+              "descripcion": "PAGO POSTERIOR – BILLETERA MOVIL - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "260",
+              "descripcion": "TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA  – TRANSFERENCIA SWIFT"
+            },
+            {
+              "codigoClasificador": "261",
+              "descripcion": "TRANSFERENCIA BANCARIA – DEPOSITO  EN CUENTA – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "262",
+              "descripcion": "TRANSFERENCIA BANCARIA – DEPOSITO  EN CUENTA – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "263",
+              "descripcion": "TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA   – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "264",
+              "descripcion": "TRANSFERENCIA BANCARIA– DEPOSITO  EN CUENTA – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "265",
+              "descripcion": "TRANSFERENCIA BANCARIA – SWIFT  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "266",
+              "descripcion": "TRANSFERENCIA BANCARIA – SWIFT  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "267",
+              "descripcion": "TRANSFERENCIA BANCARIA – SWIFT  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "268",
+              "descripcion": "TRANSFERENCIA BANCARIA – SWIFT  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "269",
+              "descripcion": "TRANSFERENCIA BANCARIA – GIFT-CARD  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "270",
+              "descripcion": "TRANSFERENCIA BANCARIA – GIFT-CARD  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "271",
+              "descripcion": "TRANSFERENCIA BANCARIA – GIFT-CARD  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "272",
+              "descripcion": "TRANSFERENCIA BANCARIA – CANAL DE PAGO – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "273",
+              "descripcion": "TRANSFERENCIA BANCARIA – CANAL DE PAGO – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "274",
+              "descripcion": "TRANSFERENCIA BANCARIA – BILLETERA MOVIL – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "275",
+              "descripcion": "DEPOSITO EN CUENTA  – SWIFT  – GIFT-CARD"
+            },
+            {
+              "codigoClasificador": "276",
+              "descripcion": "DEPOSITO EN CUENTA  – SWIFT  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "277",
+              "descripcion": "DEPOSITO EN CUENTA  – SWIFT  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "278",
+              "descripcion": "DEPOSITO EN CUENTA  – SWIFT  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "279",
+              "descripcion": "DEPOSITO EN CUENTA – GIFT-CARD  – CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "280",
+              "descripcion": "DEPOSITO EN CUENTA – GIFT-CARD  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "281",
+              "descripcion": "DEPOSITO EN CUENTA  – GIFT-CARD  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "282",
+              "descripcion": "DEPOSITO EN CUENTA –  CANAL DE PAGO  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "283",
+              "descripcion": "DEPOSITO EN CUENTA – CANAL DE PAGO   – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "284",
+              "descripcion": "DEPOSITO EN CUENTA – BILLETERA MOVIL  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "285",
+              "descripcion": "SWIFT – GIFT - CANAL DE PAGO"
+            },
+            {
+              "codigoClasificador": "286",
+              "descripcion": "SWIFT – GIFT - BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "287",
+              "descripcion": "SWIFT – GIFT - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "288",
+              "descripcion": "SWIFT – CANAL DE PAGO  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "289",
+              "descripcion": "SWIFT – CANAL  DE PAGO – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "290",
+              "descripcion": "SWIFT – BILLETERA MOVIL  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "291",
+              "descripcion": "GIFT-CARD – CANAL DE PAGO  – BILLETERA MOVIL"
+            },
+            {
+              "codigoClasificador": "292",
+              "descripcion": "GIFT-CARD – CANAL DE PAGO  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "293",
+              "descripcion": "GIFT-CARD – BILLETERA MOVIL - PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "294",
+              "descripcion": "CANAL DE PAGO – BILLETERA MOVIL  – PAGO ONLINE"
+            },
+            {
+              "codigoClasificador": "295",
+              "descripcion": "DEBITO AUTOMATICO"
+            },
+            {
+              "codigoClasificador": "296",
+              "descripcion": "DEBITO AUTOMATICO – EFECTIVO"
+            },
+            {
+              "codigoClasificador": "297",
+              "descripcion": "DEBITO AUTOMATICO -TARJETA"
+            },
+            {
+              "codigoClasificador": "298",
+              "descripcion": "DEBITO AUTOMATICO – CHEQUE"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

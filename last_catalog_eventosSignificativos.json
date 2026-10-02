@@ -1,0 +1,41 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaEventosSignificativosResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "7",
+              "descripcion": "CORTE DE SUMINISTRO DE ENERGIA ELÉCTRICA"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "VIRUS INFORMÁTICO O FALLA DE SOFTWARE"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "CAMBIO DE INFRAESTRUCTURA DE SISTEMA O FALLA DE HARDWARE"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "CORTE DEL SERVICIO DE INTERNET"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "INACCESIBILIDAD AL SERVICIO WEB DE LA ADMINISTRACIÓN TRIBUTARIA"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "INGRESO A ZONAS SIN INTERNET POR DESPLIEGUE DE PUNTO DE VENTA"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "VENTA EN LUGARES SIN INTERNET"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

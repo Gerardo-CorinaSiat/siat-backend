@@ -1,0 +1,23 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarActividadesResponse": {
+        "RespuestaListaActividades": {
+          "transaccion": "true",
+          "listaActividades": [
+            {
+              "codigoCaeb": "692000",
+              "descripcion": "ACTIVIDADES DE CONTABILIDAD, TENEDURÍA DE LIBROS Y AUDITORIA; ASESORAMIENTO EN MATERIA DE IMPUESTOS",
+              "tipoActividad": "P"
+            },
+            {
+              "codigoCaeb": "6920000",
+              "descripcion": "Actividades de contabilidad, teneduría de libros y auditoría",
+              "tipoActividad": "P"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

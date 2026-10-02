@@ -1,0 +1,113 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarListaProductosServiciosResponse": {
+        "RespuestaListaProductos": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "82210",
+              "descripcionProducto": "SERVICIOS DE AUDITORÍA FINANCIERA"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "82221",
+              "descripcionProducto": "SERVICIOS DE CONTABILIDAD"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "82222",
+              "descripcionProducto": "SERVICIOS DE TENEDURÍA DE LIBROS"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "82223",
+              "descripcionProducto": "SERVICIO DE NÓMINA"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "82310",
+              "descripcionProducto": "SERVICIOS DE PREPARACIÓN Y ASESORAMIENTO TRIBUTARIO EMPRESARIAL"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "82320",
+              "descripcionProducto": "SERVICIOS DE PREPARACIÓN Y PLANIFICACIÓN DE IMPUESTOS PERSONALES"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "99100",
+              "descripcionProducto": "OTROS PRODUCTOS O SERVICIOS ALCANZADOS POR EL IVA",
+              "nandina": [
+                "7010.90.20.10",
+                "7010.90.30.10",
+                "7010.90.10.10"
+              ]
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "822109",
+              "descripcionProducto": "SERVICIOS DE AUDITORÍA FINANCIERA IMPORTADO"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "822219",
+              "descripcionProducto": "SERVICIOS DE CONTABILIDAD IMPORTADO"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "822229",
+              "descripcionProducto": "SERVICIOS DE TENEDURÍA DE LIBROS IMPORTADO"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "822239",
+              "descripcionProducto": "SERVICIO DE NÓMINA IMPORTADO"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "823109",
+              "descripcionProducto": "SERVICIOS DE PREPARACIÓN Y ASESORAMIENTO TRIBUTARIO EMPRESARIAL IMPORTADO"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "823209",
+              "descripcionProducto": "SERVICIOS DE PREPARACIÓN Y PLANIFICACIÓN DE IMPUESTOS PERSONALES IMPORTADO"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoProducto": "991009",
+              "descripcionProducto": "OTROS PRODUCTOS O SERVICIOS ALCANZADOS POR EL IVA IMPORTADO"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoProducto": "1004065",
+              "descripcionProducto": "Servicios de Contabilidad y Elaboración de Estados Financieros"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoProducto": "1004066",
+              "descripcionProducto": "Asesoría Fiscal y Tributaria"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoProducto": "1004879",
+              "descripcionProducto": "Activos Fijos"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoProducto": "1004879",
+              "descripcionProducto": "Activos Fijos"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoProducto": "1005219",
+              "descripcionProducto": "Servicio de Auditoria"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

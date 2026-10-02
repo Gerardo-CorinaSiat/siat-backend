@@ -1,0 +1,629 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoMonedaResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "125",
+              "descripcion": "CHELÍN SOMALÍ"
+            },
+            {
+              "codigoClasificador": "126",
+              "descripcion": "RAND"
+            },
+            {
+              "codigoClasificador": "127",
+              "descripcion": "LIBRA SURSUDANESA"
+            },
+            {
+              "codigoClasificador": "128",
+              "descripcion": "RUPIA CEILANDESA"
+            },
+            {
+              "codigoClasificador": "129",
+              "descripcion": "LIBRA SUDANESA"
+            },
+            {
+              "codigoClasificador": "130",
+              "descripcion": "DÓLAR SURINAMÉS"
+            },
+            {
+              "codigoClasificador": "131",
+              "descripcion": "LILANGENI"
+            },
+            {
+              "codigoClasificador": "132",
+              "descripcion": "CORONA SUECA"
+            },
+            {
+              "codigoClasificador": "133",
+              "descripcion": "FRANCO SUIZO"
+            },
+            {
+              "codigoClasificador": "134",
+              "descripcion": "LIBRA SIRIA"
+            },
+            {
+              "codigoClasificador": "135",
+              "descripcion": "NUEVO DÓLAR DE TAIWÁN"
+            },
+            {
+              "codigoClasificador": "136",
+              "descripcion": "SOMONI"
+            },
+            {
+              "codigoClasificador": "137",
+              "descripcion": "CHELÍN TANZANIANO"
+            },
+            {
+              "codigoClasificador": "138",
+              "descripcion": "BAT"
+            },
+            {
+              "codigoClasificador": "139",
+              "descripcion": "PAANGA"
+            },
+            {
+              "codigoClasificador": "140",
+              "descripcion": "DÓLAR TRINITENSE"
+            },
+            {
+              "codigoClasificador": "141",
+              "descripcion": "DINAR TUNECINO"
+            },
+            {
+              "codigoClasificador": "142",
+              "descripcion": "LIRA TURCA"
+            },
+            {
+              "codigoClasificador": "143",
+              "descripcion": "MANAT TURCOMANO"
+            },
+            {
+              "codigoClasificador": "144",
+              "descripcion": "CHELÍN UGANDÉS"
+            },
+            {
+              "codigoClasificador": "145",
+              "descripcion": "GRIVNA"
+            },
+            {
+              "codigoClasificador": "146",
+              "descripcion": "PESO URUGUAYO"
+            },
+            {
+              "codigoClasificador": "147",
+              "descripcion": "SUM"
+            },
+            {
+              "codigoClasificador": "148",
+              "descripcion": "VATU DO VANUATU"
+            },
+            {
+              "codigoClasificador": "149",
+              "descripcion": "BOLÍVAR FUERTE"
+            },
+            {
+              "codigoClasificador": "150",
+              "descripcion": "DONG"
+            },
+            {
+              "codigoClasificador": "151",
+              "descripcion": "RIAL YEMENÍ"
+            },
+            {
+              "codigoClasificador": "152",
+              "descripcion": "KUACHA ZAMBIANO"
+            },
+            {
+              "codigoClasificador": "153",
+              "descripcion": "DÓLAR ZIMBABUENSE"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "AFGANI"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "LEK"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "LIBRA ESTERLINA"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "DINAR"
+            },
+            {
+              "codigoClasificador": "7",
+              "descripcion": "EURO"
+            },
+            {
+              "codigoClasificador": "8",
+              "descripcion": "KUANZA DE ANGOLA"
+            },
+            {
+              "codigoClasificador": "9",
+              "descripcion": "PESO ARGENTINO"
+            },
+            {
+              "codigoClasificador": "10",
+              "descripcion": "DRAM ARMENIO"
+            },
+            {
+              "codigoClasificador": "11",
+              "descripcion": "FLORÍN ARUBANO"
+            },
+            {
+              "codigoClasificador": "12",
+              "descripcion": "DÓLAR AUSTRALIANO"
+            },
+            {
+              "codigoClasificador": "13",
+              "descripcion": "MANAT AZERBAYANO"
+            },
+            {
+              "codigoClasificador": "14",
+              "descripcion": "DÓLAR DE LAS BAHAMAS"
+            },
+            {
+              "codigoClasificador": "15",
+              "descripcion": "DINAR DE BARÉIN"
+            },
+            {
+              "codigoClasificador": "16",
+              "descripcion": "TAKA DE BANGLADÉS"
+            },
+            {
+              "codigoClasificador": "17",
+              "descripcion": "DÓLAR DE LAS BARBADOS"
+            },
+            {
+              "codigoClasificador": "18",
+              "descripcion": "RUBLO BIELORRUSO"
+            },
+            {
+              "codigoClasificador": "19",
+              "descripcion": "DÓLAR BELICEÑO"
+            },
+            {
+              "codigoClasificador": "20",
+              "descripcion": "GULTRUM BUTANÉS"
+            },
+            {
+              "codigoClasificador": "21",
+              "descripcion": "MARCO CONVERTIBLE DE BOSNIA Y HERZEGOVINA"
+            },
+            {
+              "codigoClasificador": "22",
+              "descripcion": "PULA DE BOTSUANA"
+            },
+            {
+              "codigoClasificador": "23",
+              "descripcion": "REAL BRASILEÑO"
+            },
+            {
+              "codigoClasificador": "24",
+              "descripcion": "DÓLAR DE BRUNEI"
+            },
+            {
+              "codigoClasificador": "25",
+              "descripcion": "LEVA BÚLGARO"
+            },
+            {
+              "codigoClasificador": "26",
+              "descripcion": "FRANCO CFA"
+            },
+            {
+              "codigoClasificador": "27",
+              "descripcion": "KIAT DE BIRMANIA"
+            },
+            {
+              "codigoClasificador": "28",
+              "descripcion": "FRANCO BURUNDÉS"
+            },
+            {
+              "codigoClasificador": "29",
+              "descripcion": "RIEL CAMBOYANO"
+            },
+            {
+              "codigoClasificador": "30",
+              "descripcion": "DÓLAR CANADIENSE"
+            },
+            {
+              "codigoClasificador": "31",
+              "descripcion": "ESCUDO DE CABO VERDE"
+            },
+            {
+              "codigoClasificador": "32",
+              "descripcion": "DÓLAR DE LAS ISLAS CAIMÁN"
+            },
+            {
+              "codigoClasificador": "33",
+              "descripcion": "PESO CHILENO"
+            },
+            {
+              "codigoClasificador": "34",
+              "descripcion": "YUAN, RENMINBI"
+            },
+            {
+              "codigoClasificador": "35",
+              "descripcion": "PESO COLOMBIANO"
+            },
+            {
+              "codigoClasificador": "36",
+              "descripcion": "FRANCO COMORANO"
+            },
+            {
+              "codigoClasificador": "37",
+              "descripcion": "FRANCO CONGOLEÑO"
+            },
+            {
+              "codigoClasificador": "38",
+              "descripcion": "COLÓN COSTARRICENSE"
+            },
+            {
+              "codigoClasificador": "154",
+              "descripcion": "DÓLAR HONG KONG"
+            },
+            {
+              "codigoClasificador": "39",
+              "descripcion": "KUNA CROATA"
+            },
+            {
+              "codigoClasificador": "40",
+              "descripcion": "PESO CUBANO"
+            },
+            {
+              "codigoClasificador": "41",
+              "descripcion": "FLORÍN DE LAS ANTILLAS NEERLANDESAS"
+            },
+            {
+              "codigoClasificador": "42",
+              "descripcion": "CORONA CHECA"
+            },
+            {
+              "codigoClasificador": "43",
+              "descripcion": "CORONA DANESA"
+            },
+            {
+              "codigoClasificador": "44",
+              "descripcion": "FRANCO YIBUTIANO"
+            },
+            {
+              "codigoClasificador": "45",
+              "descripcion": "PESO DOMINICANO"
+            },
+            {
+              "codigoClasificador": "46",
+              "descripcion": "DÓLAR ESTADOUNIDENSE"
+            },
+            {
+              "codigoClasificador": "47",
+              "descripcion": "LIBRA EGIPCIA"
+            },
+            {
+              "codigoClasificador": "48",
+              "descripcion": "COLÓN SALVADOREÑO"
+            },
+            {
+              "codigoClasificador": "49",
+              "descripcion": "NAKFA DE ERITREA"
+            },
+            {
+              "codigoClasificador": "50",
+              "descripcion": "BIR"
+            },
+            {
+              "codigoClasificador": "51",
+              "descripcion": "FRANCO CFP"
+            },
+            {
+              "codigoClasificador": "52",
+              "descripcion": "DALASI GAMBIANO"
+            },
+            {
+              "codigoClasificador": "53",
+              "descripcion": "LARI GEORGIANO"
+            },
+            {
+              "codigoClasificador": "54",
+              "descripcion": "CEDI DE GANA"
+            },
+            {
+              "codigoClasificador": "55",
+              "descripcion": "LIBRA DE GIBRALTAR"
+            },
+            {
+              "codigoClasificador": "56",
+              "descripcion": "QUETZAL"
+            },
+            {
+              "codigoClasificador": "57",
+              "descripcion": "FRANCO GUINEANO"
+            },
+            {
+              "codigoClasificador": "58",
+              "descripcion": "GURDE"
+            },
+            {
+              "codigoClasificador": "59",
+              "descripcion": "LEMPIRA"
+            },
+            {
+              "codigoClasificador": "60",
+              "descripcion": "FORINTO"
+            },
+            {
+              "codigoClasificador": "61",
+              "descripcion": "CORONA ISLANDESA"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "BOLIVIANO"
+            },
+            {
+              "codigoClasificador": "62",
+              "descripcion": "RUPIA INDIA"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "DOLAR"
+            },
+            {
+              "codigoClasificador": "63",
+              "descripcion": "RUPIA INDONESIA"
+            },
+            {
+              "codigoClasificador": "64",
+              "descripcion": "RIAL IRANÍ"
+            },
+            {
+              "codigoClasificador": "65",
+              "descripcion": "DINAR IRAKÍ"
+            },
+            {
+              "codigoClasificador": "66",
+              "descripcion": "NUEVO SÉQUEL"
+            },
+            {
+              "codigoClasificador": "67",
+              "descripcion": "DÓLAR JAMAICANO"
+            },
+            {
+              "codigoClasificador": "68",
+              "descripcion": "YEN"
+            },
+            {
+              "codigoClasificador": "69",
+              "descripcion": "DINAR JORDANO"
+            },
+            {
+              "codigoClasificador": "70",
+              "descripcion": "TENGUE KAZAJO"
+            },
+            {
+              "codigoClasificador": "71",
+              "descripcion": "CHELÍN KENIANO"
+            },
+            {
+              "codigoClasificador": "72",
+              "descripcion": "WON NORCOREANO"
+            },
+            {
+              "codigoClasificador": "73",
+              "descripcion": "WON SURCOREANO"
+            },
+            {
+              "codigoClasificador": "74",
+              "descripcion": "DINAR KUWAITÍ"
+            },
+            {
+              "codigoClasificador": "75",
+              "descripcion": "SOM KIRGUÍS"
+            },
+            {
+              "codigoClasificador": "76",
+              "descripcion": "KIP"
+            },
+            {
+              "codigoClasificador": "77",
+              "descripcion": "LATS"
+            },
+            {
+              "codigoClasificador": "78",
+              "descripcion": "LIBRA LIBANESA"
+            },
+            {
+              "codigoClasificador": "79",
+              "descripcion": "LOTI DE LESOTO"
+            },
+            {
+              "codigoClasificador": "80",
+              "descripcion": "DÓLAR LIBERIANO"
+            },
+            {
+              "codigoClasificador": "81",
+              "descripcion": "DINAR LIBIO"
+            },
+            {
+              "codigoClasificador": "82",
+              "descripcion": "LITAS"
+            },
+            {
+              "codigoClasificador": "83",
+              "descripcion": "PATACA DE MACAO"
+            },
+            {
+              "codigoClasificador": "84",
+              "descripcion": "DENAR"
+            },
+            {
+              "codigoClasificador": "85",
+              "descripcion": "ARIARI"
+            },
+            {
+              "codigoClasificador": "86",
+              "descripcion": "KUACHA DE MALAUI"
+            },
+            {
+              "codigoClasificador": "87",
+              "descripcion": "RINGIT"
+            },
+            {
+              "codigoClasificador": "88",
+              "descripcion": "RUFIYA"
+            },
+            {
+              "codigoClasificador": "89",
+              "descripcion": "UGUIYA"
+            },
+            {
+              "codigoClasificador": "90",
+              "descripcion": "RUPIA DE MAURICIO"
+            },
+            {
+              "codigoClasificador": "91",
+              "descripcion": "PESO MEXICANO"
+            },
+            {
+              "codigoClasificador": "92",
+              "descripcion": "DÓLAR MICRONESIO"
+            },
+            {
+              "codigoClasificador": "93",
+              "descripcion": "LEU MOLDAVO"
+            },
+            {
+              "codigoClasificador": "94",
+              "descripcion": "TUGRIK MONGOL"
+            },
+            {
+              "codigoClasificador": "95",
+              "descripcion": "DÍRHAM"
+            },
+            {
+              "codigoClasificador": "96",
+              "descripcion": "METICAL"
+            },
+            {
+              "codigoClasificador": "97",
+              "descripcion": "DÓLAR DE NAMIBIA"
+            },
+            {
+              "codigoClasificador": "98",
+              "descripcion": "DÓLAR NAURUANO"
+            },
+            {
+              "codigoClasificador": "99",
+              "descripcion": "RUPIA NEPALÍ"
+            },
+            {
+              "codigoClasificador": "100",
+              "descripcion": "DÓLAR DE NUEVA ZELANDA"
+            },
+            {
+              "codigoClasificador": "101",
+              "descripcion": "CÓRDOBA NICARAGÜENSE"
+            },
+            {
+              "codigoClasificador": "102",
+              "descripcion": "NAIRA NIGERIANO"
+            },
+            {
+              "codigoClasificador": "103",
+              "descripcion": "CORONA NORUEGA"
+            },
+            {
+              "codigoClasificador": "104",
+              "descripcion": "RIAL DE OMÁN"
+            },
+            {
+              "codigoClasificador": "105",
+              "descripcion": "RUPIA PAKISTANÍ"
+            },
+            {
+              "codigoClasificador": "106",
+              "descripcion": "BALBOA PANAMEÑO"
+            },
+            {
+              "codigoClasificador": "107",
+              "descripcion": "KINA"
+            },
+            {
+              "codigoClasificador": "108",
+              "descripcion": "GUARANÍ PARAGUAYO"
+            },
+            {
+              "codigoClasificador": "109",
+              "descripcion": "NUEVO SOL PERUANO"
+            },
+            {
+              "codigoClasificador": "110",
+              "descripcion": "PESO FILIPINO"
+            },
+            {
+              "codigoClasificador": "111",
+              "descripcion": "ZLOTI"
+            },
+            {
+              "codigoClasificador": "112",
+              "descripcion": "RIAL CATARÍ"
+            },
+            {
+              "codigoClasificador": "113",
+              "descripcion": "LEU RUMANO"
+            },
+            {
+              "codigoClasificador": "114",
+              "descripcion": "RUBLO"
+            },
+            {
+              "codigoClasificador": "115",
+              "descripcion": "FRANCO RUANDÉS"
+            },
+            {
+              "codigoClasificador": "116",
+              "descripcion": "DÓLAR DEL CARIBE ORIENTAL"
+            },
+            {
+              "codigoClasificador": "117",
+              "descripcion": "TALA"
+            },
+            {
+              "codigoClasificador": "118",
+              "descripcion": "DOBRA"
+            },
+            {
+              "codigoClasificador": "119",
+              "descripcion": "RIAL SAUDÍ"
+            },
+            {
+              "codigoClasificador": "120",
+              "descripcion": "DINAR SERBIO"
+            },
+            {
+              "codigoClasificador": "121",
+              "descripcion": "RUPIA SEYCHELLENSE"
+            },
+            {
+              "codigoClasificador": "122",
+              "descripcion": "LEONA"
+            },
+            {
+              "codigoClasificador": "123",
+              "descripcion": "DÓLAR SINGAPURENSE"
+            },
+            {
+              "codigoClasificador": "124",
+              "descripcion": "DÓLAR SALOMONENSE"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

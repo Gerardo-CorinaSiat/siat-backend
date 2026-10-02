@@ -1,0 +1,781 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarListaMensajesServiciosResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "123",
+              "descripcion": "CODIGO UNICO DE FACTURACION DIARIA (CUFD) FUERA DE TOLERANCIA"
+            },
+            {
+              "codigoClasificador": "901",
+              "descripcion": "RECEPCION PENDIENTE"
+            },
+            {
+              "codigoClasificador": "902",
+              "descripcion": "RECEPCION RECHAZADA"
+            },
+            {
+              "codigoClasificador": "903",
+              "descripcion": "RECEPCION PROCESADA"
+            },
+            {
+              "codigoClasificador": "904",
+              "descripcion": "RECEPCION OBSERVADA"
+            },
+            {
+              "codigoClasificador": "905",
+              "descripcion": "ANULACION CONFIRMADA"
+            },
+            {
+              "codigoClasificador": "906",
+              "descripcion": "ANULACION RECHAZADA"
+            },
+            {
+              "codigoClasificador": "907",
+              "descripcion": "REVERSION DE ANULACION CONFIRMADA"
+            },
+            {
+              "codigoClasificador": "908",
+              "descripcion": "RECEPCION VALIDADA"
+            },
+            {
+              "codigoClasificador": "909",
+              "descripcion": "REVERSION DE ANULACION RECHAZADA"
+            },
+            {
+              "codigoClasificador": "910",
+              "descripcion": "EL PARAMETRO AMBIENTE ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "911",
+              "descripcion": "EL PARAMETRO CODIGO DE SISTEMA ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "912",
+              "descripcion": "EL SISTEMA NO ESTA ASOCIADO AL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "913",
+              "descripcion": "CODIGO UNICO DE INICIO DE SISTEMA (CUIS) INVALIDO"
+            },
+            {
+              "codigoClasificador": "914",
+              "descripcion": "CODIGO UNICO DE FACTURACION DIARIA (CUFD) INVALIDO"
+            },
+            {
+              "codigoClasificador": "915",
+              "descripcion": "EL PARAMETRO TIPO FACTURA DOCUMENTO ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "916",
+              "descripcion": "EL PARAMETRO TIPO DE EMISION ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "917",
+              "descripcion": "EL PARAMETRO MODALIDAD ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "918",
+              "descripcion": "EL PARAMETRO SUCURSAL ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "919",
+              "descripcion": "EL PARAMETRO NIT ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "920",
+              "descripcion": "EL PARAMETRO ARCHIVO ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "921",
+              "descripcion": "EL FIRMADO DEL XML ES INCORRECTO"
+            },
+            {
+              "codigoClasificador": "922",
+              "descripcion": "LA FIRMA DEL XML NO CORRESPONDE AL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "923",
+              "descripcion": "EL PARAMETRO CODIGO DE RECEPCION ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "924",
+              "descripcion": "LA FACTURA O NOTA, NO EXISTE EN LA BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "925",
+              "descripcion": "EL PARAMETRO MOTIVO DE ANULACION ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "926",
+              "descripcion": "COMUNICACION EXITOSA"
+            },
+            {
+              "codigoClasificador": "927",
+              "descripcion": "EL CERTIFICADO DE LA FIRMA ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "928",
+              "descripcion": "EL CERTIFICADO SE ENCUENTRA REVOCADO"
+            },
+            {
+              "codigoClasificador": "929",
+              "descripcion": "EL CODIGO UNICO DE INICIO DE SISTEMA (CUIS) NO ESTA VIGENTE"
+            },
+            {
+              "codigoClasificador": "930",
+              "descripcion": "EL CODIGO UNICO DE INICIO DE SISTEMA (CUIS) NO CORRESPONDE A LA SUCURSAL/PUNTO VENTA"
+            },
+            {
+              "codigoClasificador": "931",
+              "descripcion": "EL PARAMETRO CODIGO DOCUMENTO SECTOR ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "932",
+              "descripcion": "EL PARAMETRO CODIGO DOCUMENTO SECTOR NO CORRESPONDE AL SERVICIO"
+            },
+            {
+              "codigoClasificador": "933",
+              "descripcion": "EL PUNTO DE VENTA ES INEXISTENTE O INVALIDO"
+            },
+            {
+              "codigoClasificador": "934",
+              "descripcion": "LA SOLICITUD DE ANULACION DE LA FACTURA O NOTA DE CREDITO-DEBITO SE ENCUENTRA FUERA DE PLAZO"
+            },
+            {
+              "codigoClasificador": "935",
+              "descripcion": "EL PARAMETRO FECHA DE ENVIO ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "936",
+              "descripcion": "LA FACTURA O NOTA DE CREDITO-DEBITO YA SE ENCUENTRA ANULADA"
+            },
+            {
+              "codigoClasificador": "937",
+              "descripcion": "EL NIT NO TIENE ASOCIADO LA MODALIDAD DE FACTURACION"
+            },
+            {
+              "codigoClasificador": "938",
+              "descripcion": "EL NIT PRESENTA MARCAS DE CONTROL"
+            },
+            {
+              "codigoClasificador": "939",
+              "descripcion": "LA FACTURA O NOTA DE CREDITO - DEBITO NO CUMPLE CON EL FORMATO DEL XSD ESPECIFICADO"
+            },
+            {
+              "codigoClasificador": "940",
+              "descripcion": "EL NIT NO TIENE HABILITADO EL DOCUMENTO SECTOR"
+            },
+            {
+              "codigoClasificador": "941",
+              "descripcion": "LA FACTURA O NOTA DE CREDITO - DEBITO NO SE ENCUENTRA DISPONIBLE PARA SER ANULADA"
+            },
+            {
+              "codigoClasificador": "942",
+              "descripcion": "EL CODIGO DE RECEPCION DE EVENTO SIGNIFICATIVO NO SE ENCUENTRA EN LA BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "943",
+              "descripcion": "EL FORMATO DE LA FECHA DE ENVIO ES INCORRECTO"
+            },
+            {
+              "codigoClasificador": "944",
+              "descripcion": "EL CODIGO DE RECEPCION NO SE ENCUENTRA EN LA BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "945",
+              "descripcion": "EL ESTADO DE RECEPCION DE LA ANULACION ES INCORRECTA"
+            },
+            {
+              "codigoClasificador": "946",
+              "descripcion": "EL CODIGO UNICO DE FACTURA (CUF) NO EXISTE EN BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "947",
+              "descripcion": "EL PARAMETRO TIPO DE PUNTO DE VENTA ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "948",
+              "descripcion": "EL PARAMETRO NOMBRE DE PUNTO DE VENTA NO PUEDE SER VACIO"
+            },
+            {
+              "codigoClasificador": "949",
+              "descripcion": "EL PARAMETRO DESCRIPCION DE PUNTO DE VENTA NO PUEDE SER VACIO"
+            },
+            {
+              "codigoClasificador": "950",
+              "descripcion": "EL PARAMETRO CODIGO DE EVENTO SIGNIFICATIVO NO PUEDE SER VACIO"
+            },
+            {
+              "codigoClasificador": "951",
+              "descripcion": "EL PARAMETRO DESCRIPCION DE EVENTO SIGNIFICATIVO NO PUEDE SER VACIO"
+            },
+            {
+              "codigoClasificador": "952",
+              "descripcion": "EL CODIGO UNICO DE FACTURA (CUF) YA SE ENCUENTRA REGISTRADO EN LA BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "953",
+              "descripcion": "EL CODIGO UNICO DE FACTURACION DIARIA (CUFD) NO SE ENCUENTRA VIGENTE"
+            },
+            {
+              "codigoClasificador": "954",
+              "descripcion": "LA CANTIDAD DE FACTURAS EN EL  PAQUETE EMITIDO POR CONTINGENCIA HA EXCEDIO EL MAXIMO PERMITIDO"
+            },
+            {
+              "codigoClasificador": "955",
+              "descripcion": "NO EXISTE REGISTRO PARA AUTORIZAR EL PROCESO MASIVO"
+            },
+            {
+              "codigoClasificador": "956",
+              "descripcion": "LA CANTIDAD DE FACTURAS EN EL PAQUETE EMITIDO MASIVAMENTE HA EXCEDIO EL MAXIMO PERMITIDO"
+            },
+            {
+              "codigoClasificador": "957",
+              "descripcion": "NO EXISTE REGISTRO DE EVENTO SIGNIFICATIVO EN LA BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "958",
+              "descripcion": "EL USUARIO NO SE ENCUENTRA AUTORIZADO PARA CONSUMIR ESTE SERVICIO"
+            },
+            {
+              "codigoClasificador": "959",
+              "descripcion": "EL CODIGO UNICO DE INICIO DE SISTEMA (CUIS) NO SE ENCUENTRA ASOCIADO AL SISTEMA"
+            },
+            {
+              "codigoClasificador": "960",
+              "descripcion": "EL PARAMETRO FIN DE EVENTO ES REQUERIDO"
+            },
+            {
+              "codigoClasificador": "961",
+              "descripcion": "EL NIT TIENE MARCA DE DOMICILIO INEXISTENTE"
+            },
+            {
+              "codigoClasificador": "962",
+              "descripcion": "EL NIT TIENE BLOQUEO DE DOSIFICACION ORIGINADO EN FISCALIZACION"
+            },
+            {
+              "codigoClasificador": "963",
+              "descripcion": "EL NIT TIENE BLOQUEO DE DOSIFICACION ORIGINADO EN JURIDICA"
+            },
+            {
+              "codigoClasificador": "964",
+              "descripcion": "EL NIT NO CUMPLE CON OBLIGATORIEDAD DE PRESENTACION DE DDJJ"
+            },
+            {
+              "codigoClasificador": "965",
+              "descripcion": "EL CONTRIBUYENTE NO CUENTA CON FIRMA VIGENTE REGISTRADA"
+            },
+            {
+              "codigoClasificador": "966",
+              "descripcion": "NO SE PUEDE RECUPERAR LOS DATOS DEL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "967",
+              "descripcion": "TIEMPO DE ESPERA AGOTADO PARA CONEXION A BASE DE DATOS"
+            },
+            {
+              "codigoClasificador": "968",
+              "descripcion": "LA ANULACION DE LA FACTURA O NOTA DE CREDITO - DEBITO YA SE ENCUENTRA REVERTIDA"
+            },
+            {
+              "codigoClasificador": "969",
+              "descripcion": "EL PARAMETRO HASH ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "970",
+              "descripcion": "EL CUIS EN LA BASE DE DATOS SE ENCUENTRA VIGENTE, NO PUEDE SOLICITAR OTRO"
+            },
+            {
+              "codigoClasificador": "971",
+              "descripcion": "EL TAMAÃ‘O DEL ARCHIVO EXCEDE EL TAMAÃ‘O PERMITIDO DE 100 MB"
+            },
+            {
+              "codigoClasificador": "972",
+              "descripcion": "LA CANTIDAD DE FACTURAS ENVIADA EN EL PAQUETE ES MAYOR A LA DEFINIDA EN LA NORMATIVA"
+            },
+            {
+              "codigoClasificador": "973",
+              "descripcion": "EL CODIGO UNICO DE INICIO DE SISTEMA (CUIS) NO SE ENCUENTRA VIGENTE"
+            },
+            {
+              "codigoClasificador": "974",
+              "descripcion": "EL RANGO DE FECHAS DEL EVENTO SIGNIFICATIVO PARA REGISTRAR ES INVÃLIDO"
+            },
+            {
+              "codigoClasificador": "975",
+              "descripcion": "EL SISTEMA NO SE ENCUENTRA AUTORIZADO O SE ENCUENTRA OBSERVADO"
+            },
+            {
+              "codigoClasificador": "976",
+              "descripcion": "EL CODIGO DEL EVENTO ES INCORRECTO"
+            },
+            {
+              "codigoClasificador": "977",
+              "descripcion": "NO EXISTEN ACTIVIDADES ASOCIADAS AL NIT"
+            },
+            {
+              "codigoClasificador": "978",
+              "descripcion": "REVERSION DE LA FACTURA O NOTA DE CREDITO/DEBITO CONFIRMADA"
+            },
+            {
+              "codigoClasificador": "979",
+              "descripcion": "EL CUIS NO SE ENCUENTRA ASOCIADO AL SISTEMA O A LA SUCURSAL"
+            },
+            {
+              "codigoClasificador": "980",
+              "descripcion": "EXISTE UN CUIS VIGENTE PARA LA SUCURSAL O PUNTO DE VENTA"
+            },
+            {
+              "codigoClasificador": "981",
+              "descripcion": "RANGO DE FECHAS DE EVENTO SIGNIFICATIVO INVALIDO"
+            },
+            {
+              "codigoClasificador": "982",
+              "descripcion": "NO EXISTE PUNTOS DE VENTA ASOCIADOS"
+            },
+            {
+              "codigoClasificador": "983",
+              "descripcion": "LA FECHA DE ENVIO DEL PAQUETE ESTA FUERA DE PLAZO"
+            },
+            {
+              "codigoClasificador": "984",
+              "descripcion": "EL EVENTO SIGNIFICATIVO NO CORRESPONDE AL CUFD DEL EVENTO REGISTRADO"
+            },
+            {
+              "codigoClasificador": "985",
+              "descripcion": "LA CANTIDAD DE FACTURAS ES DIFERENTE A LA DECLARADA"
+            },
+            {
+              "codigoClasificador": "986",
+              "descripcion": "NIT ACTIVO"
+            },
+            {
+              "codigoClasificador": "987",
+              "descripcion": "NIT INACTIVO"
+            },
+            {
+              "codigoClasificador": "988",
+              "descripcion": "CODIGO UNICO DE INICIO DE SISTEMA (CUIS) FUERA DE TOLERANCIA"
+            },
+            {
+              "codigoClasificador": "989",
+              "descripcion": "API KEY NO VALIDO"
+            },
+            {
+              "codigoClasificador": "990",
+              "descripcion": "EL CLIENTE NO TIENE ACTIVIDADES RELACIONADAS AL SECTOR QUE INTENTA ASOCIAR"
+            },
+            {
+              "codigoClasificador": "991",
+              "descripcion": "ERROR EN BASE DE DATOS"
+            },
+            {
+              "codigoClasificador": "992",
+              "descripcion": "ERROR SERVICIO PADRON"
+            },
+            {
+              "codigoClasificador": "993",
+              "descripcion": "LA FECHA DE ENVIO ESTA FUERA DE PLAZO"
+            },
+            {
+              "codigoClasificador": "994",
+              "descripcion": "NIT INEXISTENTE"
+            },
+            {
+              "codigoClasificador": "995",
+              "descripcion": "SERVICIO NO DISPONIBLE"
+            },
+            {
+              "codigoClasificador": "996",
+              "descripcion": "RANGO DE FECHAS INVALIDO"
+            },
+            {
+              "codigoClasificador": "997",
+              "descripcion": "EL NOMBRE EXCEDE EL LIMITE DE CARACTERES PERMITIDOS"
+            },
+            {
+              "codigoClasificador": "998",
+              "descripcion": "LA DESCRIPCION EXCEDE EL LIMITE DE CARACTERES PERMITIDOS"
+            },
+            {
+              "codigoClasificador": "999",
+              "descripcion": "ERROR EN LA EJECUCION DEL SERVICIO"
+            },
+            {
+              "codigoClasificador": "1000",
+              "descripcion": "EL CUF ENVIADO YA EXISTE EN LA BASE DE DATOS DEL SIN"
+            },
+            {
+              "codigoClasificador": "1001",
+              "descripcion": "EL NIT ENVIADO EN EL XML ES INEXISTENTE O NO CORRESPONDE AL CUFD"
+            },
+            {
+              "codigoClasificador": "1002",
+              "descripcion": "EL CODIGO UNICO DE FACTURA (CUF) ENVIADO EN EL XML ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "1003",
+              "descripcion": "EL CODIGO UNICO DE FACTURACION DIARIA (CUFD) ENVIADO EN EL XML ES INVALIDO"
+            },
+            {
+              "codigoClasificador": "1004",
+              "descripcion": "LA SUCURSAL ENVIADA EN EL XML NO CORRESPONDE A LOS DATOS DEL CUFD"
+            },
+            {
+              "codigoClasificador": "1005",
+              "descripcion": "LA FACTURA O NOTA DE CREDITO-DEBITO NO PUEDE SER EMITIDA AL MISMO EMISOR"
+            },
+            {
+              "codigoClasificador": "1006",
+              "descripcion": "EL CUFD ENVIADO NO CORRESPONDE AL EVENTO ASOCIADO AL PAQUETE ENVIADO"
+            },
+            {
+              "codigoClasificador": "1007",
+              "descripcion": "LA DIRECCION ENVIADA EN EL XML NO CORRESPONDE A LA REGISTRADA EN PADRON"
+            },
+            {
+              "codigoClasificador": "1008",
+              "descripcion": "EL PUNTO DE VENTA ENVIADO EN EL XML ES INEXISTENTE O INVALIDO"
+            },
+            {
+              "codigoClasificador": "1009",
+              "descripcion": "LA FECHA DE EMISION ENVIADA EN EL XML NO ES VALIDA PARA EMISION EN LINEA"
+            },
+            {
+              "codigoClasificador": "1010",
+              "descripcion": "LA FACTURA NO PUEDE SER ENVIADA CON NUMERO DE CI/NIT/CEX 0 PARA MONTOS MAYORES A 3000"
+            },
+            {
+              "codigoClasificador": "1011",
+              "descripcion": "EL COMPLEMENTO SOLO PUEDE SER ENVIADO CUANDO EL TIPO DE DOCUMENTO ES CARNET DE IDENTIDAD"
+            },
+            {
+              "codigoClasificador": "1012",
+              "descripcion": "EL NUMERO DE TARJETA SOLO PUEDE SER ENVIADO CUANDO EL METODO DE PAGO SEA CON TARJETA"
+            },
+            {
+              "codigoClasificador": "1013",
+              "descripcion": "EL CALCULO DEL MONTO TOTAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1014",
+              "descripcion": "EL CALCULO DEL  MONTO TOTAL MONEDA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1015",
+              "descripcion": "EL CALCULO DEL IMPORTE BASE PARA CREDITO FISCAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1016",
+              "descripcion": "EL CODIGO DE ACTIVIDAD ECONOMICA NO ESTA HABILITADA PARA EL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "1017",
+              "descripcion": "EL CODIGO DE PRODUCTO NO ESTA RELACIONADO A NINGUN ACTIVIDAD ECONOMICA DEL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "1018",
+              "descripcion": "EL CALCULO DEL SUBTOTAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1019",
+              "descripcion": "EL CALCULO DE ICE ESPECIFICO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1020",
+              "descripcion": "EL CALCULO DE ICE PORCENTUAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1021",
+              "descripcion": "EL MONTO ICE ESPECIFICO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1022",
+              "descripcion": "EL MONTO ICE PORCENTUAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1023",
+              "descripcion": "EL CODIGO NANDINA ENVIADO EN LA FACTURA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1024",
+              "descripcion": "LA SUMATORIA DE LO DETALLES ES ERRONEA"
+            },
+            {
+              "codigoClasificador": "1025",
+              "descripcion": "EL MONTO SUJETO A CREDITO FISCAL LEY 317 ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1026",
+              "descripcion": "EL MONTO TOTAL SUJETO AL IMPUESTO DEL JUEGO (IJ) ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1027",
+              "descripcion": "EL MONTO DE DIFERENCIA DE CAMBIOS ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1028",
+              "descripcion": "EL MONTO DE IVA ENVIADO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1029",
+              "descripcion": "EL MONTO TOTAL DEVUELTO ENVIADO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1030",
+              "descripcion": "EL MONTO TOTAL ORIGINAL ENVIADO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1031",
+              "descripcion": "EL MONTO EFECTIVO DE CREDITO O DEBITO DEVUELTO ENVIADO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1032",
+              "descripcion": "EL MONTO TOTAL DE IMPUESTO A LA PARTICIPACION EN JUEGO (IPJ) ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1033",
+              "descripcion": "EL MONTO DEVUELTO ES MAYOR AL MONTO ORIGINAL"
+            },
+            {
+              "codigoClasificador": "1034",
+              "descripcion": "LA FECHA DE EMISION ES MENOR AL PERIODO ANTERIOR"
+            },
+            {
+              "codigoClasificador": "1035",
+              "descripcion": "FORMATO DE FECHA INCORRECTA"
+            },
+            {
+              "codigoClasificador": "1036",
+              "descripcion": "NOMINATIVIDAD INCORRECTA PARA NOMBRE/RAZON SOCIAL"
+            },
+            {
+              "codigoClasificador": "1037",
+              "descripcion": "EL NUMERO DOCUMENTO DE TIPO NIT NO ES VALIDO"
+            },
+            {
+              "codigoClasificador": "1038",
+              "descripcion": "NIT CONJUNTO NO VALIDO"
+            },
+            {
+              "codigoClasificador": "1039",
+              "descripcion": "FECHA EMISION PARA ENVIO MASIVO INCORRECTO"
+            },
+            {
+              "codigoClasificador": "1040",
+              "descripcion": "FECHA DE EMISION NO SE ENCUENTRA EN EL RANGO DE CONTINGENCIA"
+            },
+            {
+              "codigoClasificador": "1041",
+              "descripcion": "LA FECHA DE EMISION NO SE ENCUENTRA DENTRO DEL PLAZO ESTABLECIDO EN NORMA"
+            },
+            {
+              "codigoClasificador": "1042",
+              "descripcion": "EL NIT DEL MEDICO ENVIADO NO ES VALIDO"
+            },
+            {
+              "codigoClasificador": "1043",
+              "descripcion": "EL MONTO CONCILIADO ENVIADO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1044",
+              "descripcion": "EL MONTO TOTAL CONCILIADO ENVIADO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1045",
+              "descripcion": "VALOR DE CAFC NO VALIDO PARA LA FACTURA"
+            },
+            {
+              "codigoClasificador": "1046",
+              "descripcion": "FECHA EMISION PARA EL CAFC ENVIADO INCORRECTO"
+            },
+            {
+              "codigoClasificador": "1047",
+              "descripcion": "NUMERO FACTURA PARA EL CAFC ENVIADO INCORRECTO"
+            },
+            {
+              "codigoClasificador": "1048",
+              "descripcion": "FACTURA DE LA NOTA CREDITO DEBITO NO ENCONTRADA"
+            },
+            {
+              "codigoClasificador": "1049",
+              "descripcion": "DETALLE DE LA NOTA DIFERENTE AL DETALLE DE LA FACTURA ORIGINAL"
+            },
+            {
+              "codigoClasificador": "1050",
+              "descripcion": "MONTO GIFT CARD NO CORRESPONDE AL METODO DE PAGO"
+            },
+            {
+              "codigoClasificador": "1051",
+              "descripcion": "FECHA DE FACTURA INCORRECTA"
+            },
+            {
+              "codigoClasificador": "1052",
+              "descripcion": "EL CALCULO DEL MONTO IEHD ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1053",
+              "descripcion": "LA ACTIVIDAD DE LA NOTA DE CREDITO DEBITO NO SE ENCUENTRA AUTORIZADA PARA ESTE PLAZO"
+            },
+            {
+              "codigoClasificador": "1054",
+              "descripcion": "EL MONTO DESCUENTO CREDITO DEBITO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1055",
+              "descripcion": "EL MONTO TARIFA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1056",
+              "descripcion": "EL TIPO DE CAMBIO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1057",
+              "descripcion": "EL MONTO TOTAL MONEDA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1058",
+              "descripcion": "EL MONTO TOTAL SUJETO IVA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "1059",
+              "descripcion": "LA RAZON SOCIAL ES ERRONEA"
+            },
+            {
+              "codigoClasificador": "1060",
+              "descripcion": "EL MONTO DETALLE ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2000",
+              "descripcion": "ADVERTENCIA: EL NUMERO FACTURA ENVIADO TIENE ERROR DE CORRELATIVIDAD"
+            },
+            {
+              "codigoClasificador": "2001",
+              "descripcion": "ADVERTENCIA: LA FECHA DE EMISION ENVIADA NO SE ENCUENTRA DENTRO DEL RANGO DEL EVENTO DE CONTINGENCIA ASOCIADO"
+            },
+            {
+              "codigoClasificador": "2002",
+              "descripcion": "ADVERTENCIA: LA FECHA DE EMISION ENVIADA NO ES VALIDA PARA LA EMISION MASIVA"
+            },
+            {
+              "codigoClasificador": "2003",
+              "descripcion": "ADVERTENCIA: LA FACTURA NO PUEDE SER ENVIADA CON NUMERO DE CI/NIT/CEX 0 PARA MONTOS MAYORES A 3000"
+            },
+            {
+              "codigoClasificador": "2004",
+              "descripcion": "ADVERTENCIA: EL COMPLEMENTO SOLO PUEDE SER ENVIADO CUANDO EL TIPO DE DOCUMENTO ES CARNET DE IDENTIDAD"
+            },
+            {
+              "codigoClasificador": "2005",
+              "descripcion": "ADVERTENCIA: EL NIT DEL CLIENTE ENVIADO EN EL CAMPO NUMERO DE DOCUMENTO NO ES VALIDO"
+            },
+            {
+              "codigoClasificador": "2006",
+              "descripcion": "ADVERTENCIA: EL NUMERO DE TARJETA SOLO PUEDE SER ENVIADO CUANDO EL METODO DE PAGO SEA CON TARJETA"
+            },
+            {
+              "codigoClasificador": "2007",
+              "descripcion": "ADVERTENCIA: EL CALCULO DEL MONTO TOTAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2008",
+              "descripcion": "ADVERTENCIA: EL CALCULO DEL  MONTO TOTAL MONEDA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2009",
+              "descripcion": "ADVERTENCIA: EL CALCULO DEL IMPORTE BASE PARA CREDITO FISCAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2010",
+              "descripcion": "ADVERTENCIA: EL CODIGO DE ACTIVIDAD ECONOMICA NO ESTA HABILITADA PARA EL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "2011",
+              "descripcion": "ADVERTENCIA: EL CODIGO DE PRODUCTO NO ESTA RELACIONADO A NINGUN ACTIVIDAD ECONOMICA DEL CONTRIBUYENTE"
+            },
+            {
+              "codigoClasificador": "2012",
+              "descripcion": "ADVERTENCIA: EL CALCULO DEL SUBTOTAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2013",
+              "descripcion": "ADVERTENCIA: LA FACTURA O NOTA DE CREDITO-DEBITO NO PUEDE SER EMITIDA AL MISMO EMISOR"
+            },
+            {
+              "codigoClasificador": "2014",
+              "descripcion": "ADVERTENCIA: LA DIRECCION ENVIADA EN EL XML NO CORRESPONDE A LA REGISTRADA EN PADRON"
+            },
+            {
+              "codigoClasificador": "2015",
+              "descripcion": "ADVERTENCIA: EL CALCULO DE ICE ESPECIFICO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2016",
+              "descripcion": "ADVERTENCIA: EL CALCULO DE ICE PORCENTUAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2017",
+              "descripcion": "ADVERTENCIA: EL MONTO ICE ESPECIFICO ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2018",
+              "descripcion": "ADVERTENCIA: EL MONTO ICE PORCENTUAL ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "2019",
+              "descripcion": "ADVERTENCIA: EL CODIGO NANDINA ENVIADO EN LA FACTURA ES ERRONEO"
+            },
+            {
+              "codigoClasificador": "3000",
+              "descripcion": "EL NIT NO TIENE CONTRATO VIGENTE"
+            },
+            {
+              "codigoClasificador": "3001",
+              "descripcion": "LA CATEGORIA DE CONTRATO NO CORRESPONDE AL SECTOR"
+            },
+            {
+              "codigoClasificador": "3002",
+              "descripcion": "LA SOLICITUD EXCEDE EL LIMITE DE CUFD MASIVO PERMITIDO"
+            },
+            {
+              "codigoClasificador": "3003",
+              "descripcion": "MARCA: NO TIENE FORMULARIOS 200 Y 210 VIGENTES"
+            },
+            {
+              "codigoClasificador": "3004",
+              "descripcion": "MARCA: DOMICILIO INEXISTENTE"
+            },
+            {
+              "codigoClasificador": "3005",
+              "descripcion": "MARCA: BLOQUEO DE DOSIFICACION ORIGINADOS EN FISCALIZACION"
+            },
+            {
+              "codigoClasificador": "3006",
+              "descripcion": "MARCA: BLOQUEO DE DOSIFICACION ORIGINADOS EN JURIDICA"
+            },
+            {
+              "codigoClasificador": "3007",
+              "descripcion": "MARCA: NO CUMPLE CON OBLIGATORIEDAD DE PRESENTACION DE DDJJ"
+            },
+            {
+              "codigoClasificador": "3008",
+              "descripcion": "ADVERTENCIA: EL CUIS ESTA A PUNTO DE CADUCAR, GENERE UN NUEVO CUIS POR FAVOR"
+            },
+            {
+              "codigoClasificador": "3011",
+              "descripcion": "MARCA: ACTIVIDAD ECONOMICA INEXISTENTE O NO DECLARADA"
+            },
+            {
+              "codigoClasificador": "3012",
+              "descripcion": "MARCA: CAMBIO DE DOMICILIO FISCAL NO COMUNICADO"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoHabitacionResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "3",
+              "descripcion": "HABITACION DOBLE DE USO INDIVIDUAL"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "HABITACIÓN DOBLE CON CAMA SUPLETORIA"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "HABITACIÓN MATRIMONIAL"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "HABITACIÓN TRIPLE"
+            },
+            {
+              "codigoClasificador": "7",
+              "descripcion": "HABITACIÓN CUÁDRUPLE"
+            },
+            {
+              "codigoClasificador": "8",
+              "descripcion": "HABITACIÓN FAMILIAR"
+            },
+            {
+              "codigoClasificador": "9",
+              "descripcion": "JUNIOR SUITE"
+            },
+            {
+              "codigoClasificador": "10",
+              "descripcion": "SUITE"
+            },
+            {
+              "codigoClasificador": "11",
+              "descripcion": "SUITE DOBLE"
+            },
+            {
+              "codigoClasificador": "12",
+              "descripcion": "SUITE NUPCIAL"
+            },
+            {
+              "codigoClasificador": "13",
+              "descripcion": "SUITE PRESIDENCIAL"
+            },
+            {
+              "codigoClasificador": "14",
+              "descripcion": "CABAÑA"
+            },
+            {
+              "codigoClasificador": "15",
+              "descripcion": "DEPARTAMENTO"
+            },
+            {
+              "codigoClasificador": "16",
+              "descripcion": "DORMITORIOS"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "HABITACIÓN SENCILLA"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "HABITACIÓN DOBLE"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaUnidadMedidaResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "38",
+              "descripcion": "MILLARES"
+            },
+            {
+              "codigoClasificador": "39",
+              "descripcion": "MILLON DE UNIDADES"
+            },
+            {
+              "codigoClasificador": "40",
+              "descripcion": "ONZAS"
+            },
+            {
+              "codigoClasificador": "41",
+              "descripcion": "PALETAS"
+            },
+            {
+              "codigoClasificador": "42",
+              "descripcion": "PAQUETE"
+            },
+            {
+              "codigoClasificador": "43",
+              "descripcion": "PAR"
+            },
+            {
+              "codigoClasificador": "44",
+              "descripcion": "PIES"
+            },
+            {
+              "codigoClasificador": "45",
+              "descripcion": "PIES CUADRADOS"
+            },
+            {
+              "codigoClasificador": "108",
+              "descripcion": "AMORTIZACION"
+            },
+            {
+              "codigoClasificador": "46",
+              "descripcion": "PIES CUBICOS"
+            },
+            {
+              "codigoClasificador": "47",
+              "descripcion": "PIEZAS"
+            },
+            {
+              "codigoClasificador": "48",
+              "descripcion": "PLACAS"
+            },
+            {
+              "codigoClasificador": "49",
+              "descripcion": "PLIEGO"
+            },
+            {
+              "codigoClasificador": "70",
+              "descripcion": "ROLLO"
+            },
+            {
+              "codigoClasificador": "50",
+              "descripcion": "PULGADAS"
+            },
+            {
+              "codigoClasificador": "71",
+              "descripcion": "HORAS"
+            },
+            {
+              "codigoClasificador": "51",
+              "descripcion": "RESMA"
+            },
+            {
+              "codigoClasificador": "52",
+              "descripcion": "TAMBOR"
+            },
+            {
+              "codigoClasificador": "53",
+              "descripcion": "TONELADA CORTA"
+            },
+            {
+              "codigoClasificador": "54",
+              "descripcion": "TONELADA LARGA"
+            },
+            {
+              "codigoClasificador": "63",
+              "descripcion": "ONZA TROY"
+            },
+            {
+              "codigoClasificador": "55",
+              "descripcion": "TONELADAS"
+            },
+            {
+              "codigoClasificador": "64",
+              "descripcion": "LIBRA FINA"
+            },
+            {
+              "codigoClasificador": "56",
+              "descripcion": "TUBOS"
+            },
+            {
+              "codigoClasificador": "72",
+              "descripcion": "AGUJA"
+            },
+            {
+              "codigoClasificador": "57",
+              "descripcion": "UNIDAD (BIENES)"
+            },
+            {
+              "codigoClasificador": "73",
+              "descripcion": "AMPOLLA"
+            },
+            {
+              "codigoClasificador": "58",
+              "descripcion": "UNIDAD (SERVICIOS)"
+            },
+            {
+              "codigoClasificador": "74",
+              "descripcion": "BIDÓN"
+            },
+            {
+              "codigoClasificador": "59",
+              "descripcion": "US GALON (3,7843 L)"
+            },
+            {
+              "codigoClasificador": "75",
+              "descripcion": "BOLSA"
+            },
+            {
+              "codigoClasificador": "60",
+              "descripcion": "YARDA"
+            },
+            {
+              "codigoClasificador": "76",
+              "descripcion": "CAPSULA"
+            },
+            {
+              "codigoClasificador": "61",
+              "descripcion": "YARDA CUADRADA"
+            },
+            {
+              "codigoClasificador": "77",
+              "descripcion": "CARTUCHO"
+            },
+            {
+              "codigoClasificador": "62",
+              "descripcion": "OTRO"
+            },
+            {
+              "codigoClasificador": "78",
+              "descripcion": "COMPRIMIDO"
+            },
+            {
+              "codigoClasificador": "79",
+              "descripcion": "ESTUCHE"
+            },
+            {
+              "codigoClasificador": "80",
+              "descripcion": "FRASCO"
+            },
+            {
+              "codigoClasificador": "81",
+              "descripcion": "JERINGA"
+            },
+            {
+              "codigoClasificador": "82",
+              "descripcion": "MINI BOTELLA"
+            },
+            {
+              "codigoClasificador": "83",
+              "descripcion": "SACHET"
+            },
+            {
+              "codigoClasificador": "84",
+              "descripcion": "TABLETA"
+            },
+            {
+              "codigoClasificador": "85",
+              "descripcion": "TERMO"
+            },
+            {
+              "codigoClasificador": "86",
+              "descripcion": "TUBO"
+            },
+            {
+              "codigoClasificador": "65",
+              "descripcion": "DISPLAY"
+            },
+            {
+              "codigoClasificador": "66",
+              "descripcion": "BULTO"
+            },
+            {
+              "codigoClasificador": "109",
+              "descripcion": "OVULOS"
+            },
+            {
+              "codigoClasificador": "110",
+              "descripcion": "SUPOSITORIOS"
+            },
+            {
+              "codigoClasificador": "111",
+              "descripcion": "SOBRES"
+            },
+            {
+              "codigoClasificador": "112",
+              "descripcion": "VIAL"
+            },
+            {
+              "codigoClasificador": "113",
+              "descripcion": "HECTAREAS"
+            },
+            {
+              "codigoClasificador": "114",
+              "descripcion": "ARROBA"
+            },
+            {
+              "codigoClasificador": "115",
+              "descripcion": "AEROSOL"
+            },
+            {
+              "codigoClasificador": "116",
+              "descripcion": "BARRA"
+            },
+            {
+              "codigoClasificador": "117",
+              "descripcion": "CONJUNTO"
+            },
+            {
+              "codigoClasificador": "118",
+              "descripcion": "FANEGA"
+            },
+            {
+              "codigoClasificador": "119",
+              "descripcion": "PACK"
+            },
+            {
+              "codigoClasificador": "122",
+              "descripcion": "PASTILLA"
+            },
+            {
+              "codigoClasificador": "120",
+              "descripcion": "PIPETA"
+            },
+            {
+              "codigoClasificador": "121",
+              "descripcion": "POTE"
+            },
+            {
+              "codigoClasificador": "123",
+              "descripcion": "TONELADA METRICA"
+            },
+            {
+              "codigoClasificador": "124",
+              "descripcion": "EQUIPOS"
+            },
+            {
+              "codigoClasificador": "127",
+              "descripcion": "CUARTILLA"
+            },
+            {
+              "codigoClasificador": "128",
+              "descripcion": "MAPLE"
+            },
+            {
+              "codigoClasificador": "129",
+              "descripcion": "AMARRO"
+            },
+            {
+              "codigoClasificador": "130",
+              "descripcion": "SET"
+            },
+            {
+              "codigoClasificador": "127",
+              "descripcion": "CUARTILLA"
+            },
+            {
+              "codigoClasificador": "128",
+              "descripcion": "MAPLE"
+            },
+            {
+              "codigoClasificador": "129",
+              "descripcion": "AMARRO"
+            },
+            {
+              "codigoClasificador": "130",
+              "descripcion": "SET"
+            },
+            {
+              "codigoClasificador": "105",
+              "descripcion": "TIRA"
+            },
+            {
+              "codigoClasificador": "104",
+              "descripcion": "BLISTER"
+            },
+            {
+              "codigoClasificador": "103",
+              "descripcion": "TURRIL"
+            },
+            {
+              "codigoClasificador": "102",
+              "descripcion": "BANDEJA"
+            },
+            {
+              "codigoClasificador": "101",
+              "descripcion": "YARDA"
+            },
+            {
+              "codigoClasificador": "100",
+              "descripcion": "JABA"
+            },
+            {
+              "codigoClasificador": "67",
+              "descripcion": "DIAS"
+            },
+            {
+              "codigoClasificador": "99",
+              "descripcion": "CARTOLA"
+            },
+            {
+              "codigoClasificador": "68",
+              "descripcion": "MESES"
+            },
+            {
+              "codigoClasificador": "98",
+              "descripcion": "TETRAPACK"
+            },
+            {
+              "codigoClasificador": "97",
+              "descripcion": "VASO"
+            },
+            {
+              "codigoClasificador": "96",
+              "descripcion": "POMO"
+            },
+            {
+              "codigoClasificador": "95",
+              "descripcion": "UNIDAD TERMICA BRITANICA (TI)"
+            },
+            {
+              "codigoClasificador": "94",
+              "descripcion": "MILLONES DE BTU (1000000 BTU)"
+            },
+            {
+              "codigoClasificador": "93",
+              "descripcion": "MILLONES DE PIES CUBICOS (1000000 PC)"
+            },
+            {
+              "codigoClasificador": "69",
+              "descripcion": "QUINTAL"
+            },
+            {
+              "codigoClasificador": "92",
+              "descripcion": "MILLAR DE PIES CUBICOS (1000 PC)"
+            },
+            {
+              "codigoClasificador": "91",
+              "descripcion": "MIL PIES CUBICOS 14696 PSI 68FAH"
+            },
+            {
+              "codigoClasificador": "90",
+              "descripcion": "MIL PIES CUBICOS 14696 PSI"
+            },
+            {
+              "codigoClasificador": "89",
+              "descripcion": "METRO CUBICO 68F VOL"
+            },
+            {
+              "codigoClasificador": "88",
+              "descripcion": "BARRIL [42 GALONES(EEUU)]"
+            },
+            {
+              "codigoClasificador": "87",
+              "descripcion": "BARRIL (EEUU) 60 F"
+            },
+            {
+              "codigoClasificador": "106",
+              "descripcion": "MEGAWATT"
+            },
+            {
+              "codigoClasificador": "107",
+              "descripcion": "KILOWATT"
+            },
+            {
+              "codigoClasificador": "125",
+              "descripcion": "PIE TABLAR"
+            },
+            {
+              "codigoClasificador": "126",
+              "descripcion": "KILATES"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "BOBINAS"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "BALDE"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "BARRILES"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "BOLSA"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "BOTELLAS"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "CAJA"
+            },
+            {
+              "codigoClasificador": "7",
+              "descripcion": "CARTONES"
+            },
+            {
+              "codigoClasificador": "8",
+              "descripcion": "CENTIMETRO CUADRADO"
+            },
+            {
+              "codigoClasificador": "9",
+              "descripcion": "CENTIMETRO CUBICO"
+            },
+            {
+              "codigoClasificador": "10",
+              "descripcion": "CENTIMETRO LINEAL"
+            },
+            {
+              "codigoClasificador": "11",
+              "descripcion": "CIENTO DE UNIDADES"
+            },
+            {
+              "codigoClasificador": "12",
+              "descripcion": "CILINDRO"
+            },
+            {
+              "codigoClasificador": "13",
+              "descripcion": "CONOS"
+            },
+            {
+              "codigoClasificador": "14",
+              "descripcion": "DOCENA"
+            },
+            {
+              "codigoClasificador": "15",
+              "descripcion": "FARDO"
+            },
+            {
+              "codigoClasificador": "16",
+              "descripcion": "GALON INGLES"
+            },
+            {
+              "codigoClasificador": "17",
+              "descripcion": "GRAMO"
+            },
+            {
+              "codigoClasificador": "18",
+              "descripcion": "GRUESA"
+            },
+            {
+              "codigoClasificador": "19",
+              "descripcion": "HECTOLITRO"
+            },
+            {
+              "codigoClasificador": "20",
+              "descripcion": "HOJA"
+            },
+            {
+              "codigoClasificador": "21",
+              "descripcion": "JUEGO"
+            },
+            {
+              "codigoClasificador": "22",
+              "descripcion": "KILOGRAMO"
+            },
+            {
+              "codigoClasificador": "23",
+              "descripcion": "KILOMETRO"
+            },
+            {
+              "codigoClasificador": "24",
+              "descripcion": "KILOVATIO HORA"
+            },
+            {
+              "codigoClasificador": "25",
+              "descripcion": "KIT"
+            },
+            {
+              "codigoClasificador": "26",
+              "descripcion": "LATAS"
+            },
+            {
+              "codigoClasificador": "27",
+              "descripcion": "LIBRAS"
+            },
+            {
+              "codigoClasificador": "28",
+              "descripcion": "LITRO"
+            },
+            {
+              "codigoClasificador": "29",
+              "descripcion": "MEGAWATT HORA"
+            },
+            {
+              "codigoClasificador": "30",
+              "descripcion": "METRO"
+            },
+            {
+              "codigoClasificador": "31",
+              "descripcion": "METRO CUADRADO"
+            },
+            {
+              "codigoClasificador": "32",
+              "descripcion": "METRO CUBICO"
+            },
+            {
+              "codigoClasificador": "33",
+              "descripcion": "MILIGRAMOS"
+            },
+            {
+              "codigoClasificador": "34",
+              "descripcion": "MILILITRO"
+            },
+            {
+              "codigoClasificador": "35",
+              "descripcion": "MILIMETRO"
+            },
+            {
+              "codigoClasificador": "36",
+              "descripcion": "MILIMETRO CUADRADO"
+            },
+            {
+              "codigoClasificador": "37",
+              "descripcion": "MILIMETRO CUBICO"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

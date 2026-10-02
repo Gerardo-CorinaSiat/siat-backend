@@ -1,0 +1,58 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarListaActividadesDocumentoSectorResponse": {
+        "RespuestaListaActividadesDocumentoSector": {
+          "transaccion": "true",
+          "listaActividadesDocumentoSector": [
+            {
+              "codigoActividad": "692000",
+              "codigoDocumentoSector": "35",
+              "tipoDocumentoSector": "FAC_CVB"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoDocumentoSector": "47",
+              "tipoDocumentoSector": "NCDDE"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoDocumentoSector": "1",
+              "tipoDocumentoSector": "FCV"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoDocumentoSector": "24",
+              "tipoDocumentoSector": "NCD"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoDocumentoSector": "23",
+              "tipoDocumentoSector": "FAC_PRE"
+            },
+            {
+              "codigoActividad": "692000",
+              "codigoDocumentoSector": "34",
+              "tipoDocumentoSector": "FAC_SEG"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoDocumentoSector": "47",
+              "tipoDocumentoSector": "NCDDE"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoDocumentoSector": "1",
+              "tipoDocumentoSector": "FCV"
+            },
+            {
+              "codigoActividad": "6920000",
+              "codigoDocumentoSector": "24",
+              "tipoDocumentoSector": "NCD"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

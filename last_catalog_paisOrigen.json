@@ -1,0 +1,857 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaPaisOrigenResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "155",
+              "descripcion": "SAN CRISTÓBAL Y NIEVES"
+            },
+            {
+              "codigoClasificador": "156",
+              "descripcion": "SAMOA"
+            },
+            {
+              "codigoClasificador": "157",
+              "descripcion": "SAN MARINO"
+            },
+            {
+              "codigoClasificador": "158",
+              "descripcion": "SAN VICENTE Y LAS GRANADINAS"
+            },
+            {
+              "codigoClasificador": "159",
+              "descripcion": "SANTA LUCÍA"
+            },
+            {
+              "codigoClasificador": "160",
+              "descripcion": "SANTO TOMÉ Y PRÍNCIPE"
+            },
+            {
+              "codigoClasificador": "161",
+              "descripcion": "SENEGAL"
+            },
+            {
+              "codigoClasificador": "162",
+              "descripcion": "SERBIA"
+            },
+            {
+              "codigoClasificador": "163",
+              "descripcion": "SEYCHELLES"
+            },
+            {
+              "codigoClasificador": "164",
+              "descripcion": "SIERRA LEONA"
+            },
+            {
+              "codigoClasificador": "165",
+              "descripcion": "SINGAPUR"
+            },
+            {
+              "codigoClasificador": "166",
+              "descripcion": "SOMALIA"
+            },
+            {
+              "codigoClasificador": "167",
+              "descripcion": "SRI LANKA"
+            },
+            {
+              "codigoClasificador": "168",
+              "descripcion": "SUDÁFRICA"
+            },
+            {
+              "codigoClasificador": "169",
+              "descripcion": "SUDÁN"
+            },
+            {
+              "codigoClasificador": "170",
+              "descripcion": "SUDÁN DEL SUR"
+            },
+            {
+              "codigoClasificador": "171",
+              "descripcion": "SUECIA"
+            },
+            {
+              "codigoClasificador": "172",
+              "descripcion": "SUIZA"
+            },
+            {
+              "codigoClasificador": "173",
+              "descripcion": "SURINAM"
+            },
+            {
+              "codigoClasificador": "174",
+              "descripcion": "SUAZILANDIA"
+            },
+            {
+              "codigoClasificador": "175",
+              "descripcion": "TAILANDIA"
+            },
+            {
+              "codigoClasificador": "176",
+              "descripcion": "TAYIKISTÁN"
+            },
+            {
+              "codigoClasificador": "177",
+              "descripcion": "TIMOR ORIENTAL"
+            },
+            {
+              "codigoClasificador": "178",
+              "descripcion": "TOGO"
+            },
+            {
+              "codigoClasificador": "179",
+              "descripcion": "TOKELAU"
+            },
+            {
+              "codigoClasificador": "180",
+              "descripcion": "TONGA"
+            },
+            {
+              "codigoClasificador": "181",
+              "descripcion": "TRINIDAD Y TOBAGO"
+            },
+            {
+              "codigoClasificador": "182",
+              "descripcion": "TURKMENISTÁN"
+            },
+            {
+              "codigoClasificador": "183",
+              "descripcion": "TURQUÍA"
+            },
+            {
+              "codigoClasificador": "184",
+              "descripcion": "TUVALU"
+            },
+            {
+              "codigoClasificador": "185",
+              "descripcion": "TÚNEZ"
+            },
+            {
+              "codigoClasificador": "186",
+              "descripcion": "UCRANIA"
+            },
+            {
+              "codigoClasificador": "187",
+              "descripcion": "UGANDA"
+            },
+            {
+              "codigoClasificador": "188",
+              "descripcion": "URUGUAY"
+            },
+            {
+              "codigoClasificador": "189",
+              "descripcion": "UZBEKISTÁN"
+            },
+            {
+              "codigoClasificador": "190",
+              "descripcion": "VANUATU"
+            },
+            {
+              "codigoClasificador": "191",
+              "descripcion": "VENEZUELA (REPÚBLICA BOLIVARIANA DE)"
+            },
+            {
+              "codigoClasificador": "192",
+              "descripcion": "VIETNAM"
+            },
+            {
+              "codigoClasificador": "193",
+              "descripcion": "YEMEN"
+            },
+            {
+              "codigoClasificador": "194",
+              "descripcion": "ZAMBIA"
+            },
+            {
+              "codigoClasificador": "195",
+              "descripcion": "ZIMBABUE"
+            },
+            {
+              "codigoClasificador": "196",
+              "descripcion": "REPÚBLICA DE MACEDONIA"
+            },
+            {
+              "codigoClasificador": "205",
+              "descripcion": "PUERTO RICO"
+            },
+            {
+              "codigoClasificador": "206",
+              "descripcion": "HONG KONG"
+            },
+            {
+              "codigoClasificador": "207",
+              "descripcion": "FORMOSA"
+            },
+            {
+              "codigoClasificador": "208",
+              "descripcion": "NO ESPECIFICOS"
+            },
+            {
+              "codigoClasificador": "210",
+              "descripcion": "TAIWAN"
+            },
+            {
+              "codigoClasificador": "211",
+              "descripcion": "LIECHTENSTEIN"
+            },
+            {
+              "codigoClasificador": "198",
+              "descripcion": "ANTILLAS NEERLANDESAS"
+            },
+            {
+              "codigoClasificador": "199",
+              "descripcion": "ARUBA"
+            },
+            {
+              "codigoClasificador": "200",
+              "descripcion": "BERMUDAS"
+            },
+            {
+              "codigoClasificador": "201",
+              "descripcion": "ISLAS CAIMÁN"
+            },
+            {
+              "codigoClasificador": "202",
+              "descripcion": "GROENLANDIA"
+            },
+            {
+              "codigoClasificador": "203",
+              "descripcion": "ISLAS MALVINAS"
+            },
+            {
+              "codigoClasificador": "204",
+              "descripcion": "YUGOSLAVIA"
+            },
+            {
+              "codigoClasificador": "1",
+              "descripcion": "AFGANISTÁN"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "ALBANIA"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "ALEMANIA"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "ANDORRA"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "ANGOLA"
+            },
+            {
+              "codigoClasificador": "6",
+              "descripcion": "ANTIGUA Y BARBUDA"
+            },
+            {
+              "codigoClasificador": "7",
+              "descripcion": "ARABIA SAUDITA"
+            },
+            {
+              "codigoClasificador": "209",
+              "descripcion": "ISLAS VIRGENES BRITANICAS"
+            },
+            {
+              "codigoClasificador": "8",
+              "descripcion": "ARGELIA"
+            },
+            {
+              "codigoClasificador": "9",
+              "descripcion": "ARGENTINA"
+            },
+            {
+              "codigoClasificador": "10",
+              "descripcion": "ARMENIA"
+            },
+            {
+              "codigoClasificador": "11",
+              "descripcion": "AUSTRALIA"
+            },
+            {
+              "codigoClasificador": "12",
+              "descripcion": "AUSTRIA"
+            },
+            {
+              "codigoClasificador": "13",
+              "descripcion": "AZERBAIYÁN"
+            },
+            {
+              "codigoClasificador": "14",
+              "descripcion": "BAHAMAS"
+            },
+            {
+              "codigoClasificador": "15",
+              "descripcion": "BAHREIN"
+            },
+            {
+              "codigoClasificador": "16",
+              "descripcion": "BANGLADESH"
+            },
+            {
+              "codigoClasificador": "17",
+              "descripcion": "BARBADOS"
+            },
+            {
+              "codigoClasificador": "18",
+              "descripcion": "BIELORRUSIA"
+            },
+            {
+              "codigoClasificador": "19",
+              "descripcion": "BELICE"
+            },
+            {
+              "codigoClasificador": "20",
+              "descripcion": "BENIN"
+            },
+            {
+              "codigoClasificador": "21",
+              "descripcion": "BUTÁN"
+            },
+            {
+              "codigoClasificador": "22",
+              "descripcion": "BOLIVIA (ESTADO PLURINACIONAL DE)"
+            },
+            {
+              "codigoClasificador": "23",
+              "descripcion": "BOSNIA Y HERZEGOVINA"
+            },
+            {
+              "codigoClasificador": "24",
+              "descripcion": "BOTSUANA"
+            },
+            {
+              "codigoClasificador": "25",
+              "descripcion": "BRASIL"
+            },
+            {
+              "codigoClasificador": "26",
+              "descripcion": "BRUNEI DARUSSALAM"
+            },
+            {
+              "codigoClasificador": "27",
+              "descripcion": "BULGARIA"
+            },
+            {
+              "codigoClasificador": "28",
+              "descripcion": "BURKINA FASO"
+            },
+            {
+              "codigoClasificador": "29",
+              "descripcion": "BURUNDI"
+            },
+            {
+              "codigoClasificador": "30",
+              "descripcion": "BÉLGICA"
+            },
+            {
+              "codigoClasificador": "31",
+              "descripcion": "CABO VERDE"
+            },
+            {
+              "codigoClasificador": "32",
+              "descripcion": "CAMBOYA"
+            },
+            {
+              "codigoClasificador": "33",
+              "descripcion": "CAMERÚN"
+            },
+            {
+              "codigoClasificador": "34",
+              "descripcion": "CANADÁ"
+            },
+            {
+              "codigoClasificador": "35",
+              "descripcion": "CHAD"
+            },
+            {
+              "codigoClasificador": "36",
+              "descripcion": "CHEQUIA"
+            },
+            {
+              "codigoClasificador": "37",
+              "descripcion": "CHILE"
+            },
+            {
+              "codigoClasificador": "38",
+              "descripcion": "CHINA"
+            },
+            {
+              "codigoClasificador": "39",
+              "descripcion": "CHIPRE"
+            },
+            {
+              "codigoClasificador": "40",
+              "descripcion": "COLOMBIA"
+            },
+            {
+              "codigoClasificador": "41",
+              "descripcion": "COMORAS"
+            },
+            {
+              "codigoClasificador": "42",
+              "descripcion": "CONGO"
+            },
+            {
+              "codigoClasificador": "43",
+              "descripcion": "COSTA RICA"
+            },
+            {
+              "codigoClasificador": "44",
+              "descripcion": "CROACIA"
+            },
+            {
+              "codigoClasificador": "45",
+              "descripcion": "CUBA"
+            },
+            {
+              "codigoClasificador": "46",
+              "descripcion": "COSTA DE MARFIL"
+            },
+            {
+              "codigoClasificador": "47",
+              "descripcion": "DINAMARCA"
+            },
+            {
+              "codigoClasificador": "48",
+              "descripcion": "DJIBOUTI"
+            },
+            {
+              "codigoClasificador": "49",
+              "descripcion": "DOMINICA"
+            },
+            {
+              "codigoClasificador": "197",
+              "descripcion": "NO REGISTRADO"
+            },
+            {
+              "codigoClasificador": "50",
+              "descripcion": "ECUADOR"
+            },
+            {
+              "codigoClasificador": "51",
+              "descripcion": "EGIPTO"
+            },
+            {
+              "codigoClasificador": "52",
+              "descripcion": "EL SALVADOR"
+            },
+            {
+              "codigoClasificador": "53",
+              "descripcion": "EMIRATOS ÁRABES UNIDOS"
+            },
+            {
+              "codigoClasificador": "54",
+              "descripcion": "ERITREA"
+            },
+            {
+              "codigoClasificador": "55",
+              "descripcion": "ESLOVAQUIA"
+            },
+            {
+              "codigoClasificador": "56",
+              "descripcion": "ESLOVENIA"
+            },
+            {
+              "codigoClasificador": "57",
+              "descripcion": "ESPAÑA"
+            },
+            {
+              "codigoClasificador": "58",
+              "descripcion": "ESTADOS UNIDOS DE AMÉRICA"
+            },
+            {
+              "codigoClasificador": "59",
+              "descripcion": "ESTONIA"
+            },
+            {
+              "codigoClasificador": "60",
+              "descripcion": "ETIOPÍA"
+            },
+            {
+              "codigoClasificador": "61",
+              "descripcion": "FEDERACIÓN DE RUSIA"
+            },
+            {
+              "codigoClasificador": "62",
+              "descripcion": "FIYI"
+            },
+            {
+              "codigoClasificador": "63",
+              "descripcion": "FILIPINAS"
+            },
+            {
+              "codigoClasificador": "64",
+              "descripcion": "FINLANDIA"
+            },
+            {
+              "codigoClasificador": "65",
+              "descripcion": "FRANCIA"
+            },
+            {
+              "codigoClasificador": "66",
+              "descripcion": "GABÓN"
+            },
+            {
+              "codigoClasificador": "67",
+              "descripcion": "GAMBIA"
+            },
+            {
+              "codigoClasificador": "68",
+              "descripcion": "GEORGIA"
+            },
+            {
+              "codigoClasificador": "69",
+              "descripcion": "GHANA"
+            },
+            {
+              "codigoClasificador": "70",
+              "descripcion": "GRANADA"
+            },
+            {
+              "codigoClasificador": "71",
+              "descripcion": "GRECIA"
+            },
+            {
+              "codigoClasificador": "72",
+              "descripcion": "GUATEMALA"
+            },
+            {
+              "codigoClasificador": "73",
+              "descripcion": "GUINEA"
+            },
+            {
+              "codigoClasificador": "74",
+              "descripcion": "GUINEA ECUATORIAL"
+            },
+            {
+              "codigoClasificador": "75",
+              "descripcion": "GUINEA-BISSAU"
+            },
+            {
+              "codigoClasificador": "76",
+              "descripcion": "GUYANA"
+            },
+            {
+              "codigoClasificador": "77",
+              "descripcion": "HAITÍ"
+            },
+            {
+              "codigoClasificador": "78",
+              "descripcion": "HONDURAS"
+            },
+            {
+              "codigoClasificador": "79",
+              "descripcion": "HUNGRÍA"
+            },
+            {
+              "codigoClasificador": "80",
+              "descripcion": "INDIA"
+            },
+            {
+              "codigoClasificador": "81",
+              "descripcion": "INDONESIA"
+            },
+            {
+              "codigoClasificador": "82",
+              "descripcion": "IRAQ"
+            },
+            {
+              "codigoClasificador": "83",
+              "descripcion": "IRLANDA"
+            },
+            {
+              "codigoClasificador": "84",
+              "descripcion": "IRÁN (REPÚBLICA ISLÁMICA DE)"
+            },
+            {
+              "codigoClasificador": "85",
+              "descripcion": "ISLANDIA"
+            },
+            {
+              "codigoClasificador": "86",
+              "descripcion": "ISLAS COOK"
+            },
+            {
+              "codigoClasificador": "87",
+              "descripcion": "ISLAS FEROE (MIEMBRO ASOCIADO)"
+            },
+            {
+              "codigoClasificador": "88",
+              "descripcion": "ISLAS MARSHALL"
+            },
+            {
+              "codigoClasificador": "89",
+              "descripcion": "ISLAS SALOMÓN"
+            },
+            {
+              "codigoClasificador": "90",
+              "descripcion": "ISRAEL"
+            },
+            {
+              "codigoClasificador": "91",
+              "descripcion": "ITALIA"
+            },
+            {
+              "codigoClasificador": "92",
+              "descripcion": "JAMAICA"
+            },
+            {
+              "codigoClasificador": "93",
+              "descripcion": "JAPÓN"
+            },
+            {
+              "codigoClasificador": "94",
+              "descripcion": "JORDANIA"
+            },
+            {
+              "codigoClasificador": "95",
+              "descripcion": "KAZAJISTÁN"
+            },
+            {
+              "codigoClasificador": "96",
+              "descripcion": "KENIA"
+            },
+            {
+              "codigoClasificador": "97",
+              "descripcion": "KIRGUISTÁN"
+            },
+            {
+              "codigoClasificador": "98",
+              "descripcion": "KIRIBATI"
+            },
+            {
+              "codigoClasificador": "99",
+              "descripcion": "KUWAIT"
+            },
+            {
+              "codigoClasificador": "100",
+              "descripcion": "LESOTO"
+            },
+            {
+              "codigoClasificador": "101",
+              "descripcion": "LETONIA"
+            },
+            {
+              "codigoClasificador": "102",
+              "descripcion": "LIBERIA"
+            },
+            {
+              "codigoClasificador": "103",
+              "descripcion": "LIBIA"
+            },
+            {
+              "codigoClasificador": "104",
+              "descripcion": "LITUANIA"
+            },
+            {
+              "codigoClasificador": "105",
+              "descripcion": "LUXEMBURGO"
+            },
+            {
+              "codigoClasificador": "106",
+              "descripcion": "LÍBANO"
+            },
+            {
+              "codigoClasificador": "107",
+              "descripcion": "MADAGASCAR"
+            },
+            {
+              "codigoClasificador": "108",
+              "descripcion": "MALASIA"
+            },
+            {
+              "codigoClasificador": "109",
+              "descripcion": "MALAWI"
+            },
+            {
+              "codigoClasificador": "110",
+              "descripcion": "MALDIVAS"
+            },
+            {
+              "codigoClasificador": "111",
+              "descripcion": "MALTA"
+            },
+            {
+              "codigoClasificador": "112",
+              "descripcion": "MALÍ"
+            },
+            {
+              "codigoClasificador": "113",
+              "descripcion": "MARRUECOS"
+            },
+            {
+              "codigoClasificador": "114",
+              "descripcion": "MAURICIO"
+            },
+            {
+              "codigoClasificador": "115",
+              "descripcion": "MAURITANIA"
+            },
+            {
+              "codigoClasificador": "116",
+              "descripcion": "MICRONESIA (ESTADOS FEDERADOS DE)"
+            },
+            {
+              "codigoClasificador": "117",
+              "descripcion": "MONGOLIA"
+            },
+            {
+              "codigoClasificador": "118",
+              "descripcion": "MONTENEGRO"
+            },
+            {
+              "codigoClasificador": "119",
+              "descripcion": "MOZAMBIQUE"
+            },
+            {
+              "codigoClasificador": "120",
+              "descripcion": "MYANMAR"
+            },
+            {
+              "codigoClasificador": "121",
+              "descripcion": "MÉXICO"
+            },
+            {
+              "codigoClasificador": "122",
+              "descripcion": "MÓNACO"
+            },
+            {
+              "codigoClasificador": "123",
+              "descripcion": "NAMIBIA"
+            },
+            {
+              "codigoClasificador": "124",
+              "descripcion": "NAURU"
+            },
+            {
+              "codigoClasificador": "125",
+              "descripcion": "NEPAL"
+            },
+            {
+              "codigoClasificador": "126",
+              "descripcion": "NICARAGUA"
+            },
+            {
+              "codigoClasificador": "127",
+              "descripcion": "NIGERIA"
+            },
+            {
+              "codigoClasificador": "128",
+              "descripcion": "NIUE"
+            },
+            {
+              "codigoClasificador": "129",
+              "descripcion": "NORUEGA"
+            },
+            {
+              "codigoClasificador": "130",
+              "descripcion": "NUEVA ZELANDA"
+            },
+            {
+              "codigoClasificador": "131",
+              "descripcion": "NÍGER"
+            },
+            {
+              "codigoClasificador": "132",
+              "descripcion": "OMÁN"
+            },
+            {
+              "codigoClasificador": "133",
+              "descripcion": "PAKISTÁN"
+            },
+            {
+              "codigoClasificador": "134",
+              "descripcion": "PALAOS"
+            },
+            {
+              "codigoClasificador": "135",
+              "descripcion": "PANAMÁ"
+            },
+            {
+              "codigoClasificador": "136",
+              "descripcion": "PAPUA NUEVA GUINEA"
+            },
+            {
+              "codigoClasificador": "137",
+              "descripcion": "PARAGUAY"
+            },
+            {
+              "codigoClasificador": "138",
+              "descripcion": "PAÍSES BAJOS"
+            },
+            {
+              "codigoClasificador": "139",
+              "descripcion": "PERÚ"
+            },
+            {
+              "codigoClasificador": "140",
+              "descripcion": "POLONIA"
+            },
+            {
+              "codigoClasificador": "141",
+              "descripcion": "PORTUGAL"
+            },
+            {
+              "codigoClasificador": "142",
+              "descripcion": "QATAR"
+            },
+            {
+              "codigoClasificador": "143",
+              "descripcion": "REINO UNIDO"
+            },
+            {
+              "codigoClasificador": "144",
+              "descripcion": "REPÚBLICA CENTROAFRICANA"
+            },
+            {
+              "codigoClasificador": "145",
+              "descripcion": "REPÚBLICA DEMOCRÁTICA POPULAR LAO"
+            },
+            {
+              "codigoClasificador": "146",
+              "descripcion": "REPÚBLICA DEMOCRÁTICA DEL CONGO"
+            },
+            {
+              "codigoClasificador": "147",
+              "descripcion": "REPÚBLICA DOMINICANA"
+            },
+            {
+              "codigoClasificador": "148",
+              "descripcion": "REPÚBLICA POPULAR DEMOCRÁTICA DE COREA"
+            },
+            {
+              "codigoClasificador": "149",
+              "descripcion": "REPÚBLICA UNIDA DE TANZANÍA"
+            },
+            {
+              "codigoClasificador": "150",
+              "descripcion": "REPÚBLICA DE COREA"
+            },
+            {
+              "codigoClasificador": "151",
+              "descripcion": "REPÚBLICA DE MOLDAVIA"
+            },
+            {
+              "codigoClasificador": "152",
+              "descripcion": "REPÚBLICA ÁRABE SIRIA"
+            },
+            {
+              "codigoClasificador": "153",
+              "descripcion": "RUMANIA"
+            },
+            {
+              "codigoClasificador": "154",
+              "descripcion": "REPÚBLICA DE RUANDA"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

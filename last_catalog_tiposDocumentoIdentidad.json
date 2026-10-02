@@ -1,0 +1,33 @@
+{
+  "Envelope": {
+    "Body": {
+      "sincronizarParametricaTipoDocumentoIdentidadResponse": {
+        "RespuestaListaParametricas": {
+          "transaccion": "true",
+          "listaCodigos": [
+            {
+              "codigoClasificador": "1",
+              "descripcion": "CI - CEDULA DE IDENTIDAD"
+            },
+            {
+              "codigoClasificador": "2",
+              "descripcion": "CEX - CEDULA DE IDENTIDAD DE EXTRANJERO"
+            },
+            {
+              "codigoClasificador": "5",
+              "descripcion": "NIT - NÚMERO DE IDENTIFICACIÓN TRIBUTARIA"
+            },
+            {
+              "codigoClasificador": "3",
+              "descripcion": "PAS - PASAPORTE"
+            },
+            {
+              "codigoClasificador": "4",
+              "descripcion": "OD - OTRO DOCUMENTO DE IDENTIDAD"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
