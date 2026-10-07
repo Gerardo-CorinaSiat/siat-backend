@@ -80,8 +80,9 @@ app.post('/api/siat/emitir', async (req, res) => {
 
         // Formatear FechaEnvio YYYY-MM-DDTHH:mm:ss.SSS
         const dateObj = new Date();
+        dateObj.setUTCHours(dateObj.getUTCHours() - 4);
         const pad = (n, width) => n.toString().padStart(width, '0');
-        const fechaEnvio = `${dateObj.getFullYear()}-${pad(dateObj.getMonth()+1, 2)}-${pad(dateObj.getDate(), 2)}T${pad(dateObj.getHours(), 2)}:${pad(dateObj.getMinutes(), 2)}:${pad(dateObj.getSeconds(), 2)}.${pad(dateObj.getMilliseconds(), 3)}`;
+        const fechaEnvio = `${dateObj.getUTCFullYear()}-${pad(dateObj.getUTCMonth()+1, 2)}-${pad(dateObj.getUTCDate(), 2)}T${pad(dateObj.getUTCHours(), 2)}:${pad(dateObj.getUTCMinutes(), 2)}:${pad(dateObj.getUTCSeconds(), 2)}.${pad(dateObj.getUTCMilliseconds(), 3)}`;
 
         // Llamar a SOAP (CÃ³digo Modalidad = 2, Ambiente = 2 Piloto)
         // codigoDocumentoSector = 1 (Compra Venta), codigoEmision = 1 (Online)
@@ -296,5 +297,6 @@ app.listen(PORT, () => {
     console.log(`✅ Servidor SIAT Backend (Piloto) corriendo en http://localhost:${PORT}`);
     console.log(`Modalidad configurada: Computarizada en Línea (Sin .p12)`);
 });
+
 
 
