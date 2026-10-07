@@ -212,7 +212,7 @@ async function recepcionFacturaComputarizada(codigoSistema, nit, cuis, cufd, cod
         solicitud = 'SolicitudServicioRecepcionDocumentoAjuste';
     } else if (codigoDocumentoSector == 23 || codigoDocumentoSector == 34) {
         endpoint = "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada";
-    }
+    } else if (codigoDocumentoSector == 1 || codigoDocumentoSector == 35) { endpoint = "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionCompraVenta"; }
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="https://siat.impuestos.gob.bo/">
@@ -420,7 +420,7 @@ async function anulacionFactura(codigoSistema, nit, cuis, cufd, cuf, codigoMotiv
         solicitud = 'SolicitudServicioAnulacionDocumentoAjuste';
     } else if (codigoDocumentoSector == 23 || codigoDocumentoSector == 34) {
         endpoint = "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada";
-    }
+    } else if (codigoDocumentoSector == 1 || codigoDocumentoSector == 35) { endpoint = "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionCompraVenta"; }
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="https://siat.impuestos.gob.bo/">
@@ -473,7 +473,7 @@ async function reversionAnulacionFactura(codigoSistema, nit, cuis, cufd, cuf, pv
         solicitud = 'SolicitudServicioReversionAnulacionDocumentoAjuste';
     } else if (codigoDocumentoSector == 23 || codigoDocumentoSector == 34) {
         endpoint = "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionComputarizada";
-    }
+    } else if (codigoDocumentoSector == 1 || codigoDocumentoSector == 35) { endpoint = "https://pilotosiatservicios.impuestos.gob.bo/v2/ServicioFacturacionCompraVenta"; }
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="https://siat.impuestos.gob.bo/">
@@ -985,6 +985,7 @@ module.exports = {
     validacionRecepcionPaqueteCompras,
     anulacionCompra
 };
+
 
 
 
