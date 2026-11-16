@@ -936,7 +936,7 @@ async function anulacionCompra(codigoSistema, nit, cuis, cufd, pv, nitProveedor,
    <soapenv:Header/>
    <soapenv:Body>
       <ser:anulacionCompra>
-         <SolicitudanulacionCompra>
+         <SolicitudAnulacionCompra>
             <codigoAmbiente>2</codigoAmbiente>
             <codigoPuntoVenta>${pv}</codigoPuntoVenta>
             <codigoSistema>${codigoSistema}</codigoSistema>
@@ -948,7 +948,7 @@ async function anulacionCompra(codigoSistema, nit, cuis, cufd, pv, nitProveedor,
             <nitProveedor>${nitProveedor}</nitProveedor>
             <nroDuiDim>0</nroDuiDim>
             <nroFactura>${nroFactura}</nroFactura>
-         </SolicitudanulacionCompra>
+         </SolicitudAnulacionCompra>
       </ser:anulacionCompra>
    </soapenv:Body>
 </soapenv:Envelope>`;

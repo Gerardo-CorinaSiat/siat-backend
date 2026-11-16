@@ -1,14 +1,23 @@
+const path = require('path');
+const fs = require('fs');
+if (fs.existsSync(path.resolve(__dirname, '../.env'))) {
+    require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+} else {
+    require('dotenv').config();
+}
 const express = require('express');
 const cors = require('cors');
 const zlib = require('zlib');
 const crypto = require('crypto');
+const nodemailer = require('nodemailer');
 const { verificarComunicacion, solicitarCuis, solicitarCufd, recepcionFacturaComputarizada } = require('./siatSoapClient');
 
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(cors());
-app.use(express.json());
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ limit: '50mb', extended: true }));
 
 // Ruta para verificar conexiÃ³n (Ping)
 app.post('/api/siat/ping', async (req, res) => {
@@ -293,9 +302,137 @@ app.post('/api/siat/hack-etapa3-massive', async (req, res) => {
 });
 
 
+// ==========================================================
+// SERVICIO DE DESPACHO DE CORREOS SMTP (cPanel Webmail)
+// ==========================================================
+app.post('/api/send-document-email', async (req, res) => {
+    try {
+        const {
+            to,
+            cc,
+            subject,
+            body,
+            pdfBase64,
+            pdfFileName = 'documento.pdf',
+            smtpConfig
+        } = req.body;
+
+        if (!to) {
+            return res.status(400).json({ success: false, message: 'El correo destinatario es obligatorio.' });
+        }
+
+        const host = smtpConfig?.host || process.env.SMTP_HOST || 'mail.servicontable13.com';
+        const port = Number(smtpConfig?.port || process.env.SMTP_PORT || 465);
+        const secure = port === 465 || smtpConfig?.secure === true || process.env.SMTP_SECURE === 'true';
+        const user = smtpConfig?.user || process.env.SMTP_USER || 'oficina@servicontable13.com';
+        const pass = smtpConfig?.pass || process.env.SMTP_PASS || 'Clientes@26*';
+        const fromName = smtpConfig?.fromName || process.env.SMTP_FROM_NAME || 'CORINA ERP - Ventas';
+
+        if (!pass) {
+            return res.status(400).json({
+                success: false,
+                requiresConfig: true,
+                message: 'No se ha configurado la contraseña del correo saliente en el servidor.'
+            });
+        }
+
+        const transporter = nodemailer.createTransport({
+            host: host,
+            port: port,
+            secure: secure,
+            auth: {
+                user: user,
+                pass: pass
+            },
+            tls: {
+                rejectUnauthorized: false
+            }
+        });
+
+        const attachments = [];
+        if (pdfBase64) {
+            const cleanBase64 = pdfBase64.replace(/^data:[^;]+;base64,/, '');
+            const ext = (pdfFileName || '').split('.').pop()?.toLowerCase();
+            let contentType = 'application/pdf';
+            if (ext === 'xlsx') {
+                contentType = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+            } else if (ext === 'xls') {
+                contentType = 'application/vnd.ms-excel';
+            } else if (ext === 'docx') {
+                contentType = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document';
+            } else if (ext === 'doc') {
+                contentType = 'application/msword';
+            } else if (ext === 'csv') {
+                contentType = 'text/csv';
+            }
+
+            attachments.push({
+                filename: pdfFileName || 'documento.pdf',
+                content: Buffer.from(cleanBase64, 'base64'),
+                contentType: contentType
+            });
+        }
+
+        const mailOptions = {
+            from: `"${fromName.replace(/"/g, '')}" <${user}>`,
+            to: to,
+            cc: cc || undefined,
+            subject: subject || 'Documento Comercial',
+            text: body || '',
+            html: (body || '').replace(/\n/g, '<br/>'),
+            attachments: attachments
+        };
+
+        const info = await transporter.sendMail(mailOptions);
+        console.log(`[SMTP cPanel] Correo enviado exitosamente a ${to}. MessageId: ${info.messageId}`);
+
+        res.json({
+            success: true,
+            message: `Correo enviado exitosamente a ${to}`,
+            messageId: info.messageId
+        });
+    } catch (error) {
+        console.error('[SMTP cPanel Error]:', error);
+        res.status(500).json({
+            success: false,
+            message: `Error al conectar con cPanel Webmail: ${error.message}`
+        });
+    }
+});
+
+app.post('/api/test-smtp-connection', async (req, res) => {
+    try {
+        const { host, port, secure, user, pass } = req.body;
+        const finalPort = Number(port || process.env.SMTP_PORT || 465);
+        const finalSecure = finalPort === 465 || secure === true || process.env.SMTP_SECURE === 'true';
+        const finalUser = user || process.env.SMTP_USER || 'oficina@servicontable13.com';
+        const finalPass = pass || process.env.SMTP_PASS || 'Clientes@26*';
+
+        const transporter = nodemailer.createTransport({
+            host: host || process.env.SMTP_HOST || 'mail.servicontable13.com',
+            port: finalPort,
+            secure: finalSecure,
+            auth: {
+                user: finalUser,
+                pass: finalPass
+            },
+            tls: {
+                rejectUnauthorized: false
+            }
+        });
+
+        await transporter.verify();
+        res.json({ success: true, message: 'Conexión SMTP exitosa con el servidor cPanel.' });
+    } catch (error) {
+        console.error('[SMTP Test Error]:', error);
+        res.status(400).json({ success: false, message: error.message });
+    }
+});
+
 app.listen(PORT, () => {
     console.log(`✅ Servidor SIAT Backend (Piloto) corriendo en http://localhost:${PORT}`);
     console.log(`Modalidad configurada: Computarizada en Línea (Sin .p12)`);
+    console.log(`📧 Servicio SMTP cPanel activo: mail.servicontable13.com:465 (${process.env.SMTP_USER || 'oficina@servicontable13.com'})`);
 });
 
 
