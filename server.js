@@ -346,7 +346,10 @@ app.post('/api/send-document-email', async (req, res) => {
             },
             tls: {
                 rejectUnauthorized: false
-            }
+            },
+            connectionTimeout: 10000,
+            greetingTimeout: 10000,
+            socketTimeout: 15000
         });
 
         const attachments = [];
@@ -418,7 +421,10 @@ app.post('/api/test-smtp-connection', async (req, res) => {
             },
             tls: {
                 rejectUnauthorized: false
-            }
+            },
+            connectionTimeout: 8000,
+            greetingTimeout: 8000,
+            socketTimeout: 10000
         });
 
         await transporter.verify();
